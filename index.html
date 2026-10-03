@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Layout Task Experiment</title>
+    <title>Layout Task Player</title>
+    <meta http-equiv="refresh" content="0;url=./experiment/" />
   </head>
   <body>
     <p>Opening the experiment...</p>
     <script>
-      const target = new URL("experiment/", document.baseURI);
+      const target = new URL("./experiment/", window.location.href);
       target.search = window.location.search;
       target.hash = window.location.hash;
       window.location.replace(target.href);
