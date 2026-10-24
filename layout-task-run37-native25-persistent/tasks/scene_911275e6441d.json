@@ -1,0 +1,186 @@
+{
+  "schema": "layouttask.task.v1",
+  "task_id": "scene_911275e6441d",
+  "qid": "Q_scene_911275e6441d",
+  "world": {
+    "unit": "mm",
+    "viewBox": {
+      "x": -14000,
+      "y": 0,
+      "width": 14000,
+      "height": 42000
+    },
+    "origin": {
+      "x": -14000,
+      "y": 0
+    },
+    "grid": {
+      "size": 500,
+      "visible": true,
+      "snap": true,
+      "origin": {
+        "x": -14000,
+        "y": 0
+      }
+    }
+  },
+  "background": {
+    "asset": "room_scene_0001_bg",
+    "x": -14000,
+    "y": 0,
+    "width": 14000,
+    "height": 42000
+  },
+  "objects": [
+    {
+      "id": "scene_911275e6441d_m04_group",
+      "asset": "m04_group",
+      "x": -10500,
+      "y": 21010.022909507446,
+      "behavior": {
+        "config": {
+          "movement": {
+            "mode": "none"
+          },
+          "free_drag": {
+            "enabled": false
+          }
+        }
+      },
+      "role": "fixed",
+      "group_id": "scene_911275e6441d_m04",
+      "rotation": 45,
+      "anchor": "center"
+    },
+    {
+      "id": "scene_911275e6441d_m04_variable",
+      "asset": "m04_variable",
+      "x": -10500,
+      "y": 21010.022909507446,
+      "behavior": {
+        "template": "button500_rotate45_limited"
+      },
+      "role": "variable",
+      "group_id": "scene_911275e6441d_m04",
+      "rotation": 45,
+      "anchor": "center"
+    },
+    {
+      "id": "scene_911275e6441d_m05_group",
+      "asset": "m05_group",
+      "x": -9950.468,
+      "y": 35430.84648911798,
+      "behavior": {
+        "config": {
+          "movement": {
+            "mode": "none"
+          },
+          "free_drag": {
+            "enabled": false
+          }
+        }
+      },
+      "role": "fixed",
+      "group_id": "scene_911275e6441d_m05",
+      "rotation": 90,
+      "anchor": "center"
+    },
+    {
+      "id": "scene_911275e6441d_m05_variable",
+      "asset": "m05_variable",
+      "x": -11112.688,
+      "y": 33685.072489117985,
+      "behavior": {
+        "template": "button500_rotate45_limited"
+      },
+      "role": "variable",
+      "group_id": "scene_911275e6441d_m05",
+      "rotation": 90,
+      "anchor": "center"
+    },
+    {
+      "id": "scene_911275e6441d_m01_group",
+      "asset": "m01_group",
+      "x": -3498.45,
+      "y": 34781.90148911798,
+      "behavior": {
+        "config": {
+          "movement": {
+            "mode": "none"
+          },
+          "free_drag": {
+            "enabled": false
+          }
+        }
+      },
+      "role": "fixed",
+      "group_id": "scene_911275e6441d_m01",
+      "rotation": 90,
+      "anchor": "center"
+    },
+    {
+      "id": "scene_911275e6441d_m01_variable",
+      "asset": "m01_variable",
+      "x": -3500,
+      "y": 34792.92348911798,
+      "behavior": {
+        "template": "button500_rotate45_limited"
+      },
+      "role": "variable",
+      "group_id": "scene_911275e6441d_m01",
+      "rotation": 90,
+      "anchor": "center"
+    },
+    {
+      "id": "scene_911275e6441d_m03_group",
+      "asset": "m03_group",
+      "x": -7005.326,
+      "y": 14167.86987628866,
+      "behavior": {
+        "config": {
+          "movement": {
+            "mode": "none"
+          },
+          "free_drag": {
+            "enabled": false
+          }
+        }
+      },
+      "role": "fixed",
+      "group_id": "scene_911275e6441d_m03",
+      "rotation": 45,
+      "anchor": "center"
+    },
+    {
+      "id": "scene_911275e6441d_m03_variable",
+      "asset": "m03_variable",
+      "x": -6024.077,
+      "y": 14414.897876288662,
+      "behavior": {
+        "template": "button500_rotate45_limited"
+      },
+      "role": "variable",
+      "group_id": "scene_911275e6441d_m03",
+      "rotation": 45,
+      "anchor": "center"
+    }
+  ],
+  "reference_mode": "persistent",
+  "display_image": {
+    "enabled": true,
+    "src": "assets/images/stimulus/911275e6441d_perspective_stimulus_1920x1080.png",
+    "alt": "Reference image",
+    "record_metrics": true
+  },
+  "flow": {
+    "mode": "direct_reconstruction"
+  },
+  "stage": {
+    "fit": "contain",
+    "max_height_ratio": 0.72,
+    "padding": 16,
+    "display_rotation_deg": 0,
+    "display_flip_y": true,
+    "background_flip_y": true
+  }
+}
