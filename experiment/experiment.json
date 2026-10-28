@@ -1,23 +1,23 @@
 {
   "schema": "layouttask.experiment.v1",
-  "experiment_id": "run_37_native25_persistent",
-  "baseUrl": "../layout-task-run37-native25-persistent/",
-  "schedule_path": "../layout-task-run37-native25-persistent/schedule.json",
-  "schedule_version": "run37-native25-williams-v1",
+  "experiment_id": "run_41_persistent",
+  "baseUrl": "../layout-task-run41-persistent/",
+  "schedule_path": "../layout-task-run41-persistent/schedule.json",
+  "schedule_version": "run41-williams-repeat-constrained-v1",
   "reward": {
     "enabled": true,
     "base_reward_cents": 400,
     "movement_reward_cents": 4,
     "rotation_reward_cents": 4,
-    "reference_path": "../layout-task-run37-native25-persistent/scoring/scoring-reference.json",
-    "reference_version": "run37-native25-scoring-v1"
+    "reference_path": "../layout-task-run41-persistent/scoring/scoring-reference.json",
+    "reference_version": "run41-scoring-v1"
   },
   "reference_mode": "persistent",
   "order": "fixed",
   "locale": "zh-CN",
   "tutorial": {
     "enabled": true,
-    "baseUrl": "../layout-task-run37-native25-persistent/tutorial/",
+    "baseUrl": "../layout-task-run41-persistent/tutorial/",
     "taskId": "scene_edc634ac7856",
     "qid": "Q_scene_edc634ac7856",
     "packageVersion": "tutorial-edc634ac7856-v1",
@@ -79,110 +79,102 @@
   },
   "data_save": {
     "mode": "receiver",
-    "experiment_id": "run_37_native25_persistent",
+    "experiment_id": "run_41_persistent",
     "endpoint": "https://datapipe.eastnoob.top/submit",
-    "filename_prefix": "run-37-native25-persistent"
+    "filename_prefix": "run-41-persistent"
   },
   "trials": [
     {
-      "taskId": "scene_3439f2260df7",
-      "qid": "Q_scene_3439f2260df7"
+      "taskId": "scene_a2b54d3e8c7d",
+      "qid": "Q_scene_a2b54d3e8c7d"
     },
     {
-      "taskId": "scene_6d5fc962a834",
-      "qid": "Q_scene_6d5fc962a834"
+      "taskId": "scene_c487a33947b5",
+      "qid": "Q_scene_c487a33947b5"
     },
     {
-      "taskId": "scene_7d409134d5d1",
-      "qid": "Q_scene_7d409134d5d1"
+      "taskId": "scene_b6f86876ba89",
+      "qid": "Q_scene_b6f86876ba89"
     },
     {
-      "taskId": "scene_3a68c441108e",
-      "qid": "Q_scene_3a68c441108e"
+      "taskId": "scene_c3781950470a",
+      "qid": "Q_scene_c3781950470a"
     },
     {
-      "taskId": "scene_ad5b536f07ed",
-      "qid": "Q_scene_ad5b536f07ed"
+      "taskId": "scene_a426483253c6",
+      "qid": "Q_scene_a426483253c6"
     },
     {
-      "taskId": "scene_b7fc40cfc271",
-      "qid": "Q_scene_b7fc40cfc271"
+      "taskId": "scene_42d631c4d03d",
+      "qid": "Q_scene_42d631c4d03d"
     },
     {
-      "taskId": "scene_7284b5a6b494",
-      "qid": "Q_scene_7284b5a6b494"
+      "taskId": "scene_4813c5ed001f",
+      "qid": "Q_scene_4813c5ed001f"
     },
     {
-      "taskId": "scene_8ef7fd45dca3",
-      "qid": "Q_scene_8ef7fd45dca3"
+      "taskId": "scene_d318a2d3e058",
+      "qid": "Q_scene_d318a2d3e058"
     },
     {
-      "taskId": "scene_37932fbf62eb",
-      "qid": "Q_scene_37932fbf62eb"
+      "taskId": "scene_5f1bf9a072f9",
+      "qid": "Q_scene_5f1bf9a072f9"
     },
     {
-      "taskId": "scene_71bd271b1ef6",
-      "qid": "Q_scene_71bd271b1ef6"
+      "taskId": "scene_fe176333bcec",
+      "qid": "Q_scene_fe176333bcec"
     },
     {
-      "taskId": "scene_7e626093f2bc",
-      "qid": "Q_scene_7e626093f2bc"
+      "taskId": "scene_9aeb20bea5f6",
+      "qid": "Q_scene_9aeb20bea5f6"
     },
     {
-      "taskId": "scene_1224f149f7b6",
-      "qid": "Q_scene_1224f149f7b6"
+      "taskId": "scene_7f0cb5e894b1",
+      "qid": "Q_scene_7f0cb5e894b1"
     },
     {
-      "taskId": "scene_316a747f9113",
-      "qid": "Q_scene_316a747f9113"
+      "taskId": "scene_3d2867bd6bf6",
+      "qid": "Q_scene_3d2867bd6bf6"
     },
     {
-      "taskId": "scene_d3851919f688",
-      "qid": "Q_scene_d3851919f688"
+      "taskId": "scene_d6ecb9c866c6",
+      "qid": "Q_scene_d6ecb9c866c6"
     },
     {
-      "taskId": "scene_911275e6441d",
-      "qid": "Q_scene_911275e6441d"
+      "taskId": "scene_1038b53edafd",
+      "qid": "Q_scene_1038b53edafd"
     },
     {
-      "taskId": "scene_ba209ce7249c",
-      "qid": "Q_scene_ba209ce7249c"
+      "taskId": "scene_80640272fe8c",
+      "qid": "Q_scene_80640272fe8c"
     },
     {
-      "taskId": "scene_cd9033ecf706",
-      "qid": "Q_scene_cd9033ecf706"
+      "taskId": "scene_c0c57edc840d",
+      "qid": "Q_scene_c0c57edc840d"
     },
     {
-      "taskId": "scene_22c827406458",
-      "qid": "Q_scene_22c827406458"
+      "taskId": "scene_c67fdeda0467",
+      "qid": "Q_scene_c67fdeda0467"
     },
     {
-      "taskId": "scene_cf7496c9ca37",
-      "qid": "Q_scene_cf7496c9ca37"
+      "taskId": "scene_33d8a9a45ab3",
+      "qid": "Q_scene_33d8a9a45ab3"
     },
     {
-      "taskId": "scene_4e25f2920fcc",
-      "qid": "Q_scene_4e25f2920fcc"
+      "taskId": "scene_085fde3d3e0c",
+      "qid": "Q_scene_085fde3d3e0c"
     },
     {
-      "taskId": "scene_612d1280b24b",
-      "qid": "Q_scene_612d1280b24b"
+      "taskId": "scene_0174b105258a",
+      "qid": "Q_scene_0174b105258a"
     },
     {
-      "taskId": "scene_414a3059fef3",
-      "qid": "Q_scene_414a3059fef3"
+      "taskId": "scene_6f20b299b0e5",
+      "qid": "Q_scene_6f20b299b0e5"
     },
     {
-      "taskId": "scene_40c935d28aa9",
-      "qid": "Q_scene_40c935d28aa9"
-    },
-    {
-      "taskId": "scene_35b3681632a5",
-      "qid": "Q_scene_35b3681632a5"
-    },
-    {
-      "taskId": "scene_742d598b03e1",
-      "qid": "Q_scene_742d598b03e1"
+      "taskId": "scene_395dba77481f",
+      "qid": "Q_scene_395dba77481f"
     }
   ]
 }

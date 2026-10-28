@@ -1,0 +1,126 @@
+{
+  "schema": "layouttask.manifest.v1",
+  "experiment_id": "run_41_persistent",
+  "asset_library": "assets/objects.json",
+  "background_library": "assets/backgrounds.json",
+  "behavior_library": "behaviors/behaviors.json",
+  "reference_mode": "persistent",
+  "tasks": [
+    {
+      "qid": "Q_scene_a2b54d3e8c7d",
+      "task_id": "scene_a2b54d3e8c7d",
+      "file": "tasks/scene_a2b54d3e8c7d.json"
+    },
+    {
+      "qid": "Q_scene_c487a33947b5",
+      "task_id": "scene_c487a33947b5",
+      "file": "tasks/scene_c487a33947b5.json"
+    },
+    {
+      "qid": "Q_scene_b6f86876ba89",
+      "task_id": "scene_b6f86876ba89",
+      "file": "tasks/scene_b6f86876ba89.json"
+    },
+    {
+      "qid": "Q_scene_c3781950470a",
+      "task_id": "scene_c3781950470a",
+      "file": "tasks/scene_c3781950470a.json"
+    },
+    {
+      "qid": "Q_scene_a426483253c6",
+      "task_id": "scene_a426483253c6",
+      "file": "tasks/scene_a426483253c6.json"
+    },
+    {
+      "qid": "Q_scene_42d631c4d03d",
+      "task_id": "scene_42d631c4d03d",
+      "file": "tasks/scene_42d631c4d03d.json"
+    },
+    {
+      "qid": "Q_scene_4813c5ed001f",
+      "task_id": "scene_4813c5ed001f",
+      "file": "tasks/scene_4813c5ed001f.json"
+    },
+    {
+      "qid": "Q_scene_d318a2d3e058",
+      "task_id": "scene_d318a2d3e058",
+      "file": "tasks/scene_d318a2d3e058.json"
+    },
+    {
+      "qid": "Q_scene_5f1bf9a072f9",
+      "task_id": "scene_5f1bf9a072f9",
+      "file": "tasks/scene_5f1bf9a072f9.json"
+    },
+    {
+      "qid": "Q_scene_fe176333bcec",
+      "task_id": "scene_fe176333bcec",
+      "file": "tasks/scene_fe176333bcec.json"
+    },
+    {
+      "qid": "Q_scene_9aeb20bea5f6",
+      "task_id": "scene_9aeb20bea5f6",
+      "file": "tasks/scene_9aeb20bea5f6.json"
+    },
+    {
+      "qid": "Q_scene_7f0cb5e894b1",
+      "task_id": "scene_7f0cb5e894b1",
+      "file": "tasks/scene_7f0cb5e894b1.json"
+    },
+    {
+      "qid": "Q_scene_3d2867bd6bf6",
+      "task_id": "scene_3d2867bd6bf6",
+      "file": "tasks/scene_3d2867bd6bf6.json"
+    },
+    {
+      "qid": "Q_scene_d6ecb9c866c6",
+      "task_id": "scene_d6ecb9c866c6",
+      "file": "tasks/scene_d6ecb9c866c6.json"
+    },
+    {
+      "qid": "Q_scene_1038b53edafd",
+      "task_id": "scene_1038b53edafd",
+      "file": "tasks/scene_1038b53edafd.json"
+    },
+    {
+      "qid": "Q_scene_80640272fe8c",
+      "task_id": "scene_80640272fe8c",
+      "file": "tasks/scene_80640272fe8c.json"
+    },
+    {
+      "qid": "Q_scene_c0c57edc840d",
+      "task_id": "scene_c0c57edc840d",
+      "file": "tasks/scene_c0c57edc840d.json"
+    },
+    {
+      "qid": "Q_scene_c67fdeda0467",
+      "task_id": "scene_c67fdeda0467",
+      "file": "tasks/scene_c67fdeda0467.json"
+    },
+    {
+      "qid": "Q_scene_33d8a9a45ab3",
+      "task_id": "scene_33d8a9a45ab3",
+      "file": "tasks/scene_33d8a9a45ab3.json"
+    },
+    {
+      "qid": "Q_scene_085fde3d3e0c",
+      "task_id": "scene_085fde3d3e0c",
+      "file": "tasks/scene_085fde3d3e0c.json"
+    },
+    {
+      "qid": "Q_scene_0174b105258a",
+      "task_id": "scene_0174b105258a",
+      "file": "tasks/scene_0174b105258a.json"
+    },
+    {
+      "qid": "Q_scene_6f20b299b0e5",
+      "task_id": "scene_6f20b299b0e5",
+      "file": "tasks/scene_6f20b299b0e5.json"
+    },
+    {
+      "qid": "Q_scene_395dba77481f",
+      "task_id": "scene_395dba77481f",
+      "file": "tasks/scene_395dba77481f.json"
+    }
+  ],
+  "title": "Run 41 persistent"
+}
