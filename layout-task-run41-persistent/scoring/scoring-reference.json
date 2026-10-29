@@ -27,6 +27,14 @@
               "y": 34685.072489117985,
               "rotation_deg": 180
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         },
         "scene_a2b54d3e8c7d_m01_group": {
@@ -136,6 +144,14 @@
               "y": 35894.589489117985,
               "rotation_deg": 45
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         },
         "scene_c487a33947b5_m01_group": {
@@ -225,6 +241,14 @@
               "y": 20667.683909507447,
               "rotation_deg": 135
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         },
         "scene_b6f86876ba89_m01_group": {
@@ -334,6 +358,14 @@
               "y": 14785.883876288659,
               "rotation_deg": 90
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         },
         "scene_c3781950470a_m01_group": {
@@ -443,6 +475,14 @@
               "y": 28261.73149026346,
               "rotation_deg": 90
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         }
       }
@@ -532,6 +572,14 @@
               "y": 27554.62549026346,
               "rotation_deg": 135
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         }
       }
@@ -561,6 +609,14 @@
               "y": 33185.072489117985,
               "rotation_deg": 90
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         },
         "scene_4813c5ed001f_m01_group": {
@@ -650,6 +706,14 @@
               "y": 19913.193909507445,
               "rotation_deg": 135
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         },
         "scene_d318a2d3e058_m01_group": {
@@ -739,6 +803,14 @@
               "y": 18913.193909507445,
               "rotation_deg": 90
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         },
         "scene_5f1bf9a072f9_m01_group": {
@@ -888,6 +960,14 @@
               "y": 27300.135490263456,
               "rotation_deg": 90
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         }
       }
@@ -917,6 +997,14 @@
               "y": 36394.589489117985,
               "rotation_deg": 45
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         },
         "scene_9aeb20bea5f6_m01_group": {
@@ -1046,6 +1134,14 @@
               "y": 14184.40987628866,
               "rotation_deg": 90
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         },
         "scene_7f0cb5e894b1_m01_group": {
@@ -1095,6 +1191,14 @@
               "y": 20913.193909507445,
               "rotation_deg": 0
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         },
         "scene_3d2867bd6bf6_m01_group": {
@@ -1224,6 +1328,14 @@
               "y": 14184.40987628866,
               "rotation_deg": 90
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         },
         "scene_d6ecb9c866c6_m01_group": {
@@ -1293,6 +1405,14 @@
               "y": 35500.22248911799,
               "rotation_deg": 45
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         },
         "scene_1038b53edafd_m01_group": {
@@ -1422,6 +1542,14 @@
               "y": 29009.652490263456,
               "rotation_deg": -45
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         }
       }
@@ -1471,6 +1599,14 @@
               "y": 35146.66848911798,
               "rotation_deg": 0
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         },
         "scene_c0c57edc840d_m01_group": {
@@ -1600,6 +1736,14 @@
               "y": 28261.73149026346,
               "rotation_deg": -45
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         }
       }
@@ -1689,6 +1833,14 @@
               "y": 28509.652490263456,
               "rotation_deg": 0
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         }
       }
@@ -1718,6 +1870,14 @@
               "y": 19960.576909507447,
               "rotation_deg": 90
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         },
         "scene_085fde3d3e0c_m01_group": {
@@ -1807,6 +1967,14 @@
               "y": 21021.236909507446,
               "rotation_deg": 0
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         },
         "scene_0174b105258a_m01_group": {
@@ -1956,6 +2124,14 @@
               "y": 27800.135490263456,
               "rotation_deg": 135
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         }
       }
@@ -1985,6 +2161,14 @@
               "y": 34793.11548911798,
               "rotation_deg": 135
             }
+          },
+          "equivalence_classes": {
+            "rotation_steps": [
+              [
+                -2,
+                2
+              ]
+            ]
           }
         },
         "scene_395dba77481f_m01_group": {

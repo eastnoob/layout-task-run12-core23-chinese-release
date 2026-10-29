@@ -7,7 +7,7 @@
   "files": [
     {
       "path": "assets/backgrounds.json",
-      "sha256": "519824a7ab7c1f2c5cfdb386e2994045579a6a5068b2b15bf7fca9c375a6d8fa"
+      "sha256": "964f88d0aa9ca89fbd61bd0310c477b8d47c09f69154a9ebca8ada0da1bf629e"
     },
     {
       "path": "assets/backgrounds/room_scene_0001_bg.svg",
@@ -15,11 +15,11 @@
     },
     {
       "path": "assets/collision/objects/m01_group_COLLISION.svg",
-      "sha256": "84af7b85ac062b467aa4945c86b4ebcfff2545e7cf4bec9546d590328f4dab0c"
+      "sha256": "3619fcef2cabfac52e60f815f3723b4ad6c0472f551798f121706e1d6d8295f7"
     },
     {
       "path": "assets/collision/objects/m01_variable_COLLISION.svg",
-      "sha256": "ad8c3e471134a9dc74b270548af51cc60f786856920bc0d812172636d9a501d1"
+      "sha256": "b1b032b46aefdfc363862ac6550ce4223423ae61d403822562703668ee9f62ac"
     },
     {
       "path": "assets/collision/objects/m03_group_COLLISION.svg",
@@ -55,15 +55,15 @@
     },
     {
       "path": "assets/objects.json",
-      "sha256": "26fcebb96e01f691d7e2ccfd0ae264330710cf3d1c2755835d9c3963c33302ed"
+      "sha256": "21dfd8b19298b3d7ac8e656f5d2d44f8f9401a384a43def8f3252a68f29544b3"
     },
     {
       "path": "assets/objects/m01_group.svg",
-      "sha256": "b9e5bbdd324a00ee328ffbb8378bc41acec1b43c14a13361cfc6ca2fcc176fe5"
+      "sha256": "873b8deec1749c234cc51b96aed7ab294fa68240170904ec43e33dd8570d99cb"
     },
     {
       "path": "assets/objects/m01_variable.svg",
-      "sha256": "97eef0d051cde0602819777bd01c2ff0cecc0286ccee58c1281768721c95a6a9"
+      "sha256": "e82e9276460d5d7372ef630df20bd9e53652c828eff569d01f4df6ddae5fe9fd"
     },
     {
       "path": "assets/objects/m02_group.svg",
@@ -83,7 +83,7 @@
     },
     {
       "path": "assets/objects/m04_group.svg",
-      "sha256": "20a88127827c3611bf8014a4e27b6d9e2d758bf9588f04274130c0b7da2c8395"
+      "sha256": "f17e9a8c9459108bbfd5513f2aa0ecf302e8cfc1935ad18ff8efd95402fe8566"
     },
     {
       "path": "assets/objects/m04_variable.svg",
@@ -95,7 +95,7 @@
     },
     {
       "path": "assets/objects/m05_variable.svg",
-      "sha256": "02b7bc37d1c9c8919365fbbf766f8e89d987d603cf415fe221158e4c33e026a2"
+      "sha256": "ed1214311fed66e2d00db10097b1573a4d6d2fc6eb884636fb7c4446661bf56b"
     },
     {
       "path": "assets/tutorial-reference/tutorial/variable/armchairAndTeatable.gif",
@@ -115,11 +115,11 @@
     },
     {
       "path": "assets/tutorial-reference/tutorial/variable/svg/armchairAndTeatable.svg",
-      "sha256": "2775af46e25c0b52c6a8ab9c1efae966dded635f66564a311b9acc2750ed313d"
+      "sha256": "2853fa3618153487d4ab91cc033f03e1a81efb0b3571b09b68688140aafde594"
     },
     {
       "path": "assets/tutorial-reference/tutorial/variable/svg/dining tablle_VARIABLE.svg",
-      "sha256": "6dccac9074d9df3256467ed809753abb1732b3227dc7d289c974da7ea2b27460"
+      "sha256": "08be11fe3c9c58ab7b8fc6d006a891aaf71630068fe977208b20f985f24cd1c9"
     },
     {
       "path": "assets/tutorial-reference/tutorial/variable/svg/shortBookShelf.svg",
@@ -127,7 +127,7 @@
     },
     {
       "path": "assets/tutorial-reference/tutorial/variable/svg/sofaAndTeatable_VARIABLE.svg",
-      "sha256": "02b7bc37d1c9c8919365fbbf766f8e89d987d603cf415fe221158e4c33e026a2"
+      "sha256": "ed1214311fed66e2d00db10097b1573a4d6d2fc6eb884636fb7c4446661bf56b"
     },
     {
       "path": "assets/tutorial-reference/tutorial/whole/armchairAndTeatable.gif",
@@ -147,11 +147,11 @@
     },
     {
       "path": "assets/tutorial-reference/tutorial/whole/svg/armchairAndTeatable.svg",
-      "sha256": "1a20254c813f10e3af8b7a847e129f4f762b69e73e7e2b6fe44103f51767817b"
+      "sha256": "15e392a69a8836c8d259e479df7cb2520a157056bd2c108b3eb0b2cab3207ac6"
     },
     {
       "path": "assets/tutorial-reference/tutorial/whole/svg/diningTable.svg",
-      "sha256": "6d79b0c120e59f04c5ca7f10deba78a610b3687b5b119495972d03e27ff78b29"
+      "sha256": "f77ae24980dbf917f076a24a2c76ef3f46aae5c12cbc60310f29e0631386a22e"
     },
     {
       "path": "assets/tutorial-reference/tutorial/whole/svg/shortBookShelf.svg",
@@ -167,15 +167,15 @@
     },
     {
       "path": "generation-report.json",
-      "sha256": "d8a5f2daa45f0775205969171ceb9056b41a309f0b10b185f17b65a8c440b871"
+      "sha256": "a8d20e8f0079d67c40a20f16d275b87cb91641ba5b593c66863a7d1da5f32df8"
     },
     {
       "path": "manifest.json",
-      "sha256": "302281eccf201d023924bf5c28ecab25cdd81fa63ea19289d647c415af18a374"
+      "sha256": "f128e01925d450adfc7ccaa5fe586058dbef614a92a8e49373f27970120e426b"
     },
     {
       "path": "scoring/scoring-reference.json",
-      "sha256": "6fd2ffa803623fc9c8989cde91255b034b9d6ca5a69f433b655a2f557cf50d2e"
+      "sha256": "2b892320cc6cc4af63e0f6b90be8928745884fc5cd768a46c2891977c038a4cf"
     },
     {
       "path": "tasks/scene_e88186a19384.json",
@@ -183,7 +183,7 @@
     },
     {
       "path": "tasks/scene_edc634ac7856.json",
-      "sha256": "2be8719b7a96362255d94c80c676c8cc5e82a9e74916cb1b16a7fc9698216261"
+      "sha256": "a2c7a458ebb1f3d7ee13d5df1c22a06bf5e4852ea0c2a1a649fe86d16eccc89e"
     }
   ]
 }
