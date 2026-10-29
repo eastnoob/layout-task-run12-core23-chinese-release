@@ -1,0 +1,2053 @@
+{
+  "schema": "layouttask.scoring-reference.v1",
+  "experiment_id": "run_41_persistent",
+  "tasks": {
+    "scene_a2b54d3e8c7d": {
+      "qid": "Q_scene_a2b54d3e8c7d",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":1772,\"layout_index\":5,\"train_shift\":1,\"angle_combo\":71,\"empty_point\":\"P02\",\"missing_model\":\"\",\"occupied_points\":[\"P05\",\"P06\",\"P01\",\"P04\"],\"empty_points\":[\"P02\",\"P03\"],\"seed\":1453,\"effective_seed\":576421,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":1772,\"empty_point_slider\":1,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":1,\"variant_bank_slider\":0,\"angle_combo_index\":71,\"combo_index\":1772,\"state_variant_slider\":29,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[45,0,0,90,90,90],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":5,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P05\",\"point_index\":5,\"angle_deg\":90,\"variable_state_label\":\"x+2,R+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":2},\"group_pose\":{\"x\":-9950.468,\"y\":39148.945,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-11112.688,\"y\":37403.171,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-11112.688,\"y\":38403.171,\"rotation_deg\":180},\"final_state_json\":{\"variable_group\":{\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":2}},\"attempts\":1,\"passed\":true},{\"slot\":6,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P06\",\"point_index\":6,\"angle_deg\":90,\"variable_state_label\":\"x+1,y-1,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":-1,\"rotation_steps\":1},\"group_pose\":{\"x\":-3498.45,\"y\":38500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-3500,\"y\":38511.022,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-3000,\"y\":39011.022,\"rotation_deg\":135},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":-1,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":45,\"variable_state_label\":\"y+1,L+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":1,\"rotation_steps\":-1},\"group_pose\":{\"x\":-7005.326,\"y\":17494.674,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-6024.077,\"y\":17741.702,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-6377.631,\"y\":18095.255,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":1,\"rotation_steps\":-1}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":90,\"variable_state_label\":\"x+1,y-2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":-2,\"rotation_steps\":0},\"group_pose\":{\"x\":-7000,\"y\":31500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-7000,\"y\":31500,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-6000,\"y\":32000,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":-2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_a2b54d3e8c7d_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_a2b54d3e8c7d_m05"
+        },
+        "scene_a2b54d3e8c7d_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_a2b54d3e8c7d_m05",
+          "target": {
+            "relative": {
+              "dx_steps": 2,
+              "dy_steps": 0,
+              "rotation_steps": 2
+            },
+            "absolute": {
+              "x": -11112.688,
+              "y": 34685.072489117985,
+              "rotation_deg": 180
+            }
+          }
+        },
+        "scene_a2b54d3e8c7d_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_a2b54d3e8c7d_m01"
+        },
+        "scene_a2b54d3e8c7d_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_a2b54d3e8c7d_m01",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": -1,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -3000,
+              "y": 35292.92348911798,
+              "rotation_deg": 135
+            }
+          }
+        },
+        "scene_a2b54d3e8c7d_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_a2b54d3e8c7d_m03"
+        },
+        "scene_a2b54d3e8c7d_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_a2b54d3e8c7d_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": 1,
+              "rotation_steps": -1
+            },
+            "absolute": {
+              "x": -6377.631,
+              "y": 14768.450876288662,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_a2b54d3e8c7d_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_a2b54d3e8c7d_m04"
+        },
+        "scene_a2b54d3e8c7d_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_a2b54d3e8c7d_m04",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": -2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -6000,
+              "y": 28396.96449026346,
+              "rotation_deg": 90
+            }
+          }
+        }
+      }
+    },
+    "scene_c487a33947b5": {
+      "qid": "Q_scene_c487a33947b5",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":875,\"layout_index\":2,\"train_shift\":2,\"angle_combo\":65,\"empty_point\":\"P04\",\"missing_model\":\"\",\"occupied_points\":[\"P02\",\"P05\",\"P03\",\"P01\"],\"empty_points\":[\"P04\",\"P06\"],\"seed\":1453,\"effective_seed\":577058,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":875,\"empty_point_slider\":3,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":2,\"variant_bank_slider\":0,\"angle_combo_index\":65,\"combo_index\":875,\"state_variant_slider\":45,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[90,90,45,0,0,0],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":2,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P02\",\"point_index\":2,\"angle_deg\":90,\"variable_state_label\":\"x-2,y-2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-2,\"dy_steps\":-2,\"rotation_steps\":0},\"group_pose\":{\"x\":-10500,\"y\":24500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-10500,\"y\":24500,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-9500,\"y\":23500,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-2,\"dy_steps\":-2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":5,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P05\",\"point_index\":5,\"angle_deg\":0,\"variable_state_label\":\"x+1,y+1,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":1,\"rotation_steps\":1},\"group_pose\":{\"x\":-9851.055,\"y\":37950.468,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-11596.829,\"y\":39112.688,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-11096.829,\"y\":39612.688,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":1,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true},{\"slot\":3,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P03\",\"point_index\":3,\"angle_deg\":45,\"variable_state_label\":\"x-1,y-2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-1,\"dy_steps\":-2,\"rotation_steps\":0},\"group_pose\":{\"x\":-3498.904,\"y\":24498.904,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-3492.206,\"y\":24507.794,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-3138.653,\"y\":23447.133,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-1,\"dy_steps\":-2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":90,\"variable_state_label\":\"x-1,y-2,L+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-1,\"dy_steps\":-2,\"rotation_steps\":-1},\"group_pose\":{\"x\":-7000,\"y\":17492.468,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-6480.827,\"y\":18360.991,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-5480.827,\"y\":17860.991,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-1,\"dy_steps\":-2,\"rotation_steps\":-1}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_c487a33947b5_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_c487a33947b5_m04"
+        },
+        "scene_c487a33947b5_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_c487a33947b5_m04",
+          "target": {
+            "relative": {
+              "dx_steps": -2,
+              "dy_steps": -2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -9500,
+              "y": 20010.022909507446,
+              "rotation_deg": 90
+            }
+          }
+        },
+        "scene_c487a33947b5_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_c487a33947b5_m05"
+        },
+        "scene_c487a33947b5_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_c487a33947b5_m05",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 1,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -11096.829,
+              "y": 35894.589489117985,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_c487a33947b5_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_c487a33947b5_m01"
+        },
+        "scene_c487a33947b5_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_c487a33947b5_m01",
+          "target": {
+            "relative": {
+              "dx_steps": -1,
+              "dy_steps": -2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -3138.653,
+              "y": 19957.155909507448,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_c487a33947b5_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_c487a33947b5_m03"
+        },
+        "scene_c487a33947b5_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_c487a33947b5_m03",
+          "target": {
+            "relative": {
+              "dx_steps": -1,
+              "dy_steps": -2,
+              "rotation_steps": -1
+            },
+            "absolute": {
+              "x": -5480.827,
+              "y": 14534.186876288662,
+              "rotation_deg": 45
+            }
+          }
+        }
+      }
+    },
+    "scene_b6f86876ba89": {
+      "qid": "Q_scene_b6f86876ba89",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":1148,\"layout_index\":3,\"train_shift\":2,\"angle_combo\":14,\"empty_point\":\"P05\",\"missing_model\":\"\",\"occupied_points\":[\"P02\",\"P03\",\"P01\",\"P04\"],\"empty_points\":[\"P05\",\"P06\"],\"seed\":1453,\"effective_seed\":575797,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":1148,\"empty_point_slider\":4,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":2,\"variant_bank_slider\":0,\"angle_combo_index\":14,\"combo_index\":1148,\"state_variant_slider\":69,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[45,90,45,0,0,0],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":2,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P02\",\"point_index\":2,\"angle_deg\":90,\"variable_state_label\":\"x+2,y-1,L+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":2,\"dy_steps\":-1,\"rotation_steps\":-1},\"group_pose\":{\"x\":-10500,\"y\":24500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-10500,\"y\":24500,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-10000,\"y\":25500,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":2,\"dy_steps\":-1,\"rotation_steps\":-1}},\"attempts\":1,\"passed\":true},{\"slot\":3,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P03\",\"point_index\":3,\"angle_deg\":45,\"variable_state_label\":\"x-1,y+1,R+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-1,\"dy_steps\":1,\"rotation_steps\":2},\"group_pose\":{\"x\":-2652.549,\"y\":24570.296,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-4708.812,\"y\":24157.661,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-5415.918,\"y\":24157.661,\"rotation_deg\":135},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-1,\"dy_steps\":1,\"rotation_steps\":2}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":45,\"variable_state_label\":\"x+1,y+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":2,\"rotation_steps\":0},\"group_pose\":{\"x\":-6998.904,\"y\":17498.904,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-6992.206,\"y\":17507.794,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-7345.76,\"y\":18568.454,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":0,\"variable_state_label\":\"x+2,R+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":2},\"group_pose\":{\"x\":-7007.532,\"y\":31500,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-6139.009,\"y\":30980.827,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-5139.009,\"y\":30980.827,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":2}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_b6f86876ba89_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_b6f86876ba89_m04"
+        },
+        "scene_b6f86876ba89_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_b6f86876ba89_m04",
+          "target": {
+            "relative": {
+              "dx_steps": 2,
+              "dy_steps": -1,
+              "rotation_steps": -1
+            },
+            "absolute": {
+              "x": -10000,
+              "y": 22010.022909507446,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_b6f86876ba89_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_b6f86876ba89_m05"
+        },
+        "scene_b6f86876ba89_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_b6f86876ba89_m05",
+          "target": {
+            "relative": {
+              "dx_steps": -1,
+              "dy_steps": 1,
+              "rotation_steps": 2
+            },
+            "absolute": {
+              "x": -5415.918,
+              "y": 20667.683909507447,
+              "rotation_deg": 135
+            }
+          }
+        },
+        "scene_b6f86876ba89_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_b6f86876ba89_m01"
+        },
+        "scene_b6f86876ba89_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_b6f86876ba89_m01",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -7345.76,
+              "y": 15241.649876288662,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_b6f86876ba89_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_b6f86876ba89_m03"
+        },
+        "scene_b6f86876ba89_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_b6f86876ba89_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 2,
+              "dy_steps": 0,
+              "rotation_steps": 2
+            },
+            "absolute": {
+              "x": -5139.009,
+              "y": 27377.79149026346,
+              "rotation_deg": 90
+            }
+          }
+        }
+      }
+    },
+    "scene_c3781950470a": {
+      "qid": "Q_scene_c3781950470a",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":622,\"layout_index\":1,\"train_shift\":3,\"angle_combo\":55,\"empty_point\":\"P02\",\"missing_model\":\"\",\"occupied_points\":[\"P05\",\"P03\",\"P01\",\"P04\"],\"empty_points\":[\"P02\",\"P06\"],\"seed\":1453,\"effective_seed\":577319,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":622,\"empty_point_slider\":1,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":3,\"variant_bank_slider\":0,\"angle_combo_index\":55,\"combo_index\":622,\"state_variant_slider\":41,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[0,0,0,90,45,0],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":5,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P05\",\"point_index\":5,\"angle_deg\":45,\"variable_state_label\":\"x+1,y-2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":-2,\"rotation_steps\":0},\"group_pose\":{\"x\":-10505.326,\"y\":38494.674,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-9524.077,\"y\":38741.702,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-8463.417,\"y\":38388.148,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":-2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":3,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P03\",\"point_index\":3,\"angle_deg\":0,\"variable_state_label\":\"x+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":0,\"rotation_steps\":0},\"group_pose\":{\"x\":-3500,\"y\":24500,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-3500,\"y\":24500,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-3000,\"y\":24500,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":0,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":0,\"variable_state_label\":\"x+2,R+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":2},\"group_pose\":{\"x\":-6351.055,\"y\":16950.468,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-8096.829,\"y\":18112.688,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-7096.829,\"y\":18112.688,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":2}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":90,\"variable_state_label\":\"y+2,L+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":2,\"rotation_steps\":-2},\"group_pose\":{\"x\":-6998.45,\"y\":31500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-7000,\"y\":31511.022,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-8000,\"y\":31511.022,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":2,\"rotation_steps\":-2}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_c3781950470a_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_c3781950470a_m03"
+        },
+        "scene_c3781950470a_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_c3781950470a_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": -2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -8463.417,
+              "y": 34670.049489117984,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_c3781950470a_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_c3781950470a_m04"
+        },
+        "scene_c3781950470a_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_c3781950470a_m04",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 0,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -3000,
+              "y": 21010.022909507446,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_c3781950470a_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_c3781950470a_m05"
+        },
+        "scene_c3781950470a_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_c3781950470a_m05",
+          "target": {
+            "relative": {
+              "dx_steps": 2,
+              "dy_steps": 0,
+              "rotation_steps": 2
+            },
+            "absolute": {
+              "x": -7096.829,
+              "y": 14785.883876288659,
+              "rotation_deg": 90
+            }
+          }
+        },
+        "scene_c3781950470a_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_c3781950470a_m01"
+        },
+        "scene_c3781950470a_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_c3781950470a_m01",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": 2,
+              "rotation_steps": -2
+            },
+            "absolute": {
+              "x": -8000,
+              "y": 27907.986490263458,
+              "rotation_deg": 0
+            }
+          }
+        }
+      }
+    },
+    "scene_a426483253c6": {
+      "qid": "Q_scene_a426483253c6",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":351,\"layout_index\":1,\"train_shift\":0,\"angle_combo\":27,\"empty_point\":\"P02\",\"missing_model\":\"\",\"occupied_points\":[\"P05\",\"P03\",\"P01\",\"P04\"],\"empty_points\":[\"P02\",\"P06\"],\"seed\":1453,\"effective_seed\":576534,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":351,\"empty_point_slider\":1,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":0,\"variant_bank_slider\":0,\"angle_combo_index\":27,\"combo_index\":351,\"state_variant_slider\":19,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[0,0,0,45,0,0],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":5,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P05\",\"point_index\":5,\"angle_deg\":0,\"variable_state_label\":\"x+1,y+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":2,\"rotation_steps\":0},\"group_pose\":{\"x\":-10500,\"y\":38498.45,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-10488.978,\"y\":38500,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-9988.978,\"y\":39500,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":3,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P03\",\"point_index\":3,\"angle_deg\":0,\"variable_state_label\":\"x-1,y-2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-1,\"dy_steps\":-2,\"rotation_steps\":0},\"group_pose\":{\"x\":-3507.532,\"y\":24500,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-2639.009,\"y\":23980.827,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-3139.009,\"y\":22980.827,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-1,\"dy_steps\":-2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":0,\"variable_state_label\":\"y-1,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":-1,\"rotation_steps\":1},\"group_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-7000,\"y\":17000,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":-1,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":45,\"variable_state_label\":\"x+2,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":1},\"group_pose\":{\"x\":-6152.549,\"y\":31570.296,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-8208.812,\"y\":31157.661,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-7501.705,\"y\":31864.767,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_a426483253c6_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_a426483253c6_m01"
+        },
+        "scene_a426483253c6_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_a426483253c6_m01",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -9988.978,
+              "y": 35781.90148911798,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_a426483253c6_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_a426483253c6_m03"
+        },
+        "scene_a426483253c6_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_a426483253c6_m03",
+          "target": {
+            "relative": {
+              "dx_steps": -1,
+              "dy_steps": -2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -3139.009,
+              "y": 19490.849909507448,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_a426483253c6_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_a426483253c6_m04"
+        },
+        "scene_a426483253c6_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_a426483253c6_m04",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": -1,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -7000,
+              "y": 13673.19587628866,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_a426483253c6_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_a426483253c6_m05"
+        },
+        "scene_a426483253c6_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_a426483253c6_m05",
+          "target": {
+            "relative": {
+              "dx_steps": 2,
+              "dy_steps": 0,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -7501.705,
+              "y": 28261.73149026346,
+              "rotation_deg": 90
+            }
+          }
+        }
+      }
+    },
+    "scene_42d631c4d03d": {
+      "qid": "Q_scene_42d631c4d03d",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":376,\"layout_index\":1,\"train_shift\":0,\"angle_combo\":52,\"empty_point\":\"P02\",\"missing_model\":\"\",\"occupied_points\":[\"P05\",\"P03\",\"P01\",\"P04\"],\"empty_points\":[\"P02\",\"P06\"],\"seed\":1453,\"effective_seed\":576561,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":376,\"empty_point_slider\":1,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":0,\"variant_bank_slider\":0,\"angle_combo_index\":52,\"combo_index\":376,\"state_variant_slider\":44,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[90,0,90,45,45,0],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":5,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P05\",\"point_index\":5,\"angle_deg\":45,\"variable_state_label\":\"x+1,y-1,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":-1,\"rotation_steps\":1},\"group_pose\":{\"x\":-10498.904,\"y\":38498.904,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-10492.206,\"y\":38507.794,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-9785.1,\"y\":38507.794,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":-1,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true},{\"slot\":3,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P03\",\"point_index\":3,\"angle_deg\":90,\"variable_state_label\":\"y-2,L+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":-2,\"rotation_steps\":-2},\"group_pose\":{\"x\":-3500,\"y\":24492.468,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-2980.827,\"y\":25360.991,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-1980.827,\"y\":25360.991,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":-2,\"rotation_steps\":-2}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":90,\"variable_state_label\":\"R+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":0,\"rotation_steps\":2},\"group_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":180},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":0,\"rotation_steps\":2}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":45,\"variable_state_label\":\"x-1,y+1,R+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-1,\"dy_steps\":1,\"rotation_steps\":2},\"group_pose\":{\"x\":-6152.549,\"y\":31570.296,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-8208.812,\"y\":31157.661,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-8915.918,\"y\":31157.661,\"rotation_deg\":135},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-1,\"dy_steps\":1,\"rotation_steps\":2}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_42d631c4d03d_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_42d631c4d03d_m01"
+        },
+        "scene_42d631c4d03d_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_42d631c4d03d_m01",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": -1,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -9785.1,
+              "y": 34789.695489117985,
+              "rotation_deg": 90
+            }
+          }
+        },
+        "scene_42d631c4d03d_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_42d631c4d03d_m03"
+        },
+        "scene_42d631c4d03d_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_42d631c4d03d_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": -2,
+              "rotation_steps": -2
+            },
+            "absolute": {
+              "x": -1980.827,
+              "y": 21871.01390950745,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_42d631c4d03d_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_42d631c4d03d_m04"
+        },
+        "scene_42d631c4d03d_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_42d631c4d03d_m04",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": 0,
+              "rotation_steps": 2
+            },
+            "absolute": {
+              "x": -7000,
+              "y": 14173.19587628866,
+              "rotation_deg": 180
+            }
+          }
+        },
+        "scene_42d631c4d03d_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_42d631c4d03d_m05"
+        },
+        "scene_42d631c4d03d_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_42d631c4d03d_m05",
+          "target": {
+            "relative": {
+              "dx_steps": -1,
+              "dy_steps": 1,
+              "rotation_steps": 2
+            },
+            "absolute": {
+              "x": -8915.918,
+              "y": 27554.62549026346,
+              "rotation_deg": 135
+            }
+          }
+        }
+      }
+    },
+    "scene_4813c5ed001f": {
+      "qid": "Q_scene_4813c5ed001f",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":1733,\"layout_index\":5,\"train_shift\":1,\"angle_combo\":32,\"empty_point\":\"P02\",\"missing_model\":\"\",\"occupied_points\":[\"P05\",\"P06\",\"P01\",\"P04\"],\"empty_points\":[\"P02\",\"P03\"],\"seed\":1453,\"effective_seed\":576396,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":1733,\"empty_point_slider\":1,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":1,\"variant_bank_slider\":0,\"angle_combo_index\":32,\"combo_index\":1733,\"state_variant_slider\":73,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[0,0,0,45,90,45],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":5,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P05\",\"point_index\":5,\"angle_deg\":90,\"variable_state_label\":\"x-1,y+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-1,\"dy_steps\":1,\"rotation_steps\":0},\"group_pose\":{\"x\":-9950.468,\"y\":39148.945,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-11112.688,\"y\":37403.171,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-11612.688,\"y\":36903.171,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-1,\"dy_steps\":1,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":6,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P06\",\"point_index\":6,\"angle_deg\":45,\"variable_state_label\":\"x-1,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-1,\"dy_steps\":0,\"rotation_steps\":1},\"group_pose\":{\"x\":-3498.904,\"y\":38498.904,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-3492.206,\"y\":38507.794,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-3845.76,\"y\":38154.24,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-1,\"dy_steps\":0,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":0,\"variable_state_label\":\"x+1,y+1,L+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":1,\"rotation_steps\":-1},\"group_pose\":{\"x\":-7007.532,\"y\":17500,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-6139.009,\"y\":16980.827,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-5639.009,\"y\":17480.827,\"rotation_deg\":-45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":1,\"rotation_steps\":-1}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":45,\"variable_state_label\":\"x-2,R+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-2,\"dy_steps\":0,\"rotation_steps\":2},\"group_pose\":{\"x\":-7000,\"y\":31500,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-7000,\"y\":31500,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-7707.107,\"y\":30792.893,\"rotation_deg\":135},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-2,\"dy_steps\":0,\"rotation_steps\":2}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_4813c5ed001f_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_4813c5ed001f_m05"
+        },
+        "scene_4813c5ed001f_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_4813c5ed001f_m05",
+          "target": {
+            "relative": {
+              "dx_steps": -1,
+              "dy_steps": 1,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -11612.688,
+              "y": 33185.072489117985,
+              "rotation_deg": 90
+            }
+          }
+        },
+        "scene_4813c5ed001f_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_4813c5ed001f_m01"
+        },
+        "scene_4813c5ed001f_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_4813c5ed001f_m01",
+          "target": {
+            "relative": {
+              "dx_steps": -1,
+              "dy_steps": 0,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -3845.76,
+              "y": 34436.14148911798,
+              "rotation_deg": 90
+            }
+          }
+        },
+        "scene_4813c5ed001f_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_4813c5ed001f_m03"
+        },
+        "scene_4813c5ed001f_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_4813c5ed001f_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 1,
+              "rotation_steps": -1
+            },
+            "absolute": {
+              "x": -5639.009,
+              "y": 14154.022876288662,
+              "rotation_deg": -45
+            }
+          }
+        },
+        "scene_4813c5ed001f_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_4813c5ed001f_m04"
+        },
+        "scene_4813c5ed001f_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_4813c5ed001f_m04",
+          "target": {
+            "relative": {
+              "dx_steps": -2,
+              "dy_steps": 0,
+              "rotation_steps": 2
+            },
+            "absolute": {
+              "x": -7707.107,
+              "y": 27189.857490263457,
+              "rotation_deg": 135
+            }
+          }
+        }
+      }
+    },
+    "scene_d318a2d3e058": {
+      "qid": "Q_scene_d318a2d3e058",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":809,\"layout_index\":2,\"train_shift\":1,\"angle_combo\":80,\"empty_point\":\"P04\",\"missing_model\":\"\",\"occupied_points\":[\"P02\",\"P05\",\"P03\",\"P01\"],\"empty_points\":[\"P04\",\"P06\"],\"seed\":1453,\"effective_seed\":577120,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":809,\"empty_point_slider\":3,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":1,\"variant_bank_slider\":0,\"angle_combo_index\":80,\"combo_index\":809,\"state_variant_slider\":62,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[90,90,90,0,90,0],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":2,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P02\",\"point_index\":2,\"angle_deg\":90,\"variable_state_label\":\"y+2,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":2,\"rotation_steps\":1},\"group_pose\":{\"x\":-9950.468,\"y\":25148.945,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-11112.688,\"y\":23403.171,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-12112.688,\"y\":23403.171,\"rotation_deg\":135},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":2,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true},{\"slot\":5,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P05\",\"point_index\":5,\"angle_deg\":90,\"variable_state_label\":\"y+2,L+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":2,\"rotation_steps\":-2},\"group_pose\":{\"x\":-10498.45,\"y\":38500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-10500,\"y\":38511.022,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-11500,\"y\":38511.022,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":2,\"rotation_steps\":-2}},\"attempts\":1,\"passed\":true},{\"slot\":3,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P03\",\"point_index\":3,\"angle_deg\":90,\"variable_state_label\":\"x+1,y-1,L+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":-1,\"rotation_steps\":-1},\"group_pose\":{\"x\":-3500,\"y\":24492.468,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-2980.827,\"y\":25360.991,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-2480.827,\"y\":25860.991,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":-1,\"rotation_steps\":-1}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":90,\"variable_state_label\":\"x-2,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-2,\"dy_steps\":0,\"rotation_steps\":1},\"group_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-7000,\"y\":16500,\"rotation_deg\":135},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-2,\"dy_steps\":0,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_d318a2d3e058_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_d318a2d3e058_m05"
+        },
+        "scene_d318a2d3e058_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_d318a2d3e058_m05",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": 2,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -12112.688,
+              "y": 19913.193909507445,
+              "rotation_deg": 135
+            }
+          }
+        },
+        "scene_d318a2d3e058_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_d318a2d3e058_m01"
+        },
+        "scene_d318a2d3e058_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_d318a2d3e058_m01",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": 2,
+              "rotation_steps": -2
+            },
+            "absolute": {
+              "x": -11500,
+              "y": 34792.92348911798,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_d318a2d3e058_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_d318a2d3e058_m03"
+        },
+        "scene_d318a2d3e058_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_d318a2d3e058_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": -1,
+              "rotation_steps": -1
+            },
+            "absolute": {
+              "x": -2480.827,
+              "y": 22371.01390950745,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_d318a2d3e058_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_d318a2d3e058_m04"
+        },
+        "scene_d318a2d3e058_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_d318a2d3e058_m04",
+          "target": {
+            "relative": {
+              "dx_steps": -2,
+              "dy_steps": 0,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -7000,
+              "y": 13173.19587628866,
+              "rotation_deg": 135
+            }
+          }
+        }
+      }
+    },
+    "scene_5f1bf9a072f9": {
+      "qid": "Q_scene_5f1bf9a072f9",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":2093,\"layout_index\":6,\"train_shift\":1,\"angle_combo\":68,\"empty_point\":\"P04\",\"missing_model\":\"\",\"occupied_points\":[\"P02\",\"P05\",\"P06\",\"P01\"],\"empty_points\":[\"P04\",\"P03\"],\"seed\":1453,\"effective_seed\":574820,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":2093,\"empty_point_slider\":3,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":1,\"variant_bank_slider\":0,\"angle_combo_index\":68,\"combo_index\":2093,\"state_variant_slider\":18,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[90,90,0,0,45,45],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":2,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P02\",\"point_index\":2,\"angle_deg\":90,\"variable_state_label\":\"x-2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-2,\"dy_steps\":0,\"rotation_steps\":0},\"group_pose\":{\"x\":-9950.468,\"y\":25148.945,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-11112.688,\"y\":23403.171,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-11112.688,\"y\":22403.171,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-2,\"dy_steps\":0,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":5,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P05\",\"point_index\":5,\"angle_deg\":45,\"variable_state_label\":\"y-2,R+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":-2,\"rotation_steps\":2},\"group_pose\":{\"x\":-10498.904,\"y\":38498.904,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-10492.206,\"y\":38507.794,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-9785.1,\"y\":37800.687,\"rotation_deg\":135},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":-2,\"rotation_steps\":2}},\"attempts\":1,\"passed\":true},{\"slot\":6,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P06\",\"point_index\":6,\"angle_deg\":45,\"variable_state_label\":\"x+1,y-2,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":-2,\"rotation_steps\":1},\"group_pose\":{\"x\":-3505.326,\"y\":38494.674,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-2524.077,\"y\":38741.702,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-1463.417,\"y\":38388.148,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":-2,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":90,\"variable_state_label\":\"y+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":1,\"rotation_steps\":0},\"group_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-7500,\"y\":17500,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":1,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_5f1bf9a072f9_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_5f1bf9a072f9_m05"
+        },
+        "scene_5f1bf9a072f9_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_5f1bf9a072f9_m05",
+          "target": {
+            "relative": {
+              "dx_steps": -2,
+              "dy_steps": 0,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -11112.688,
+              "y": 18913.193909507445,
+              "rotation_deg": 90
+            }
+          }
+        },
+        "scene_5f1bf9a072f9_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_5f1bf9a072f9_m01"
+        },
+        "scene_5f1bf9a072f9_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_5f1bf9a072f9_m01",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": -2,
+              "rotation_steps": 2
+            },
+            "absolute": {
+              "x": -9785.1,
+              "y": 34082.58848911798,
+              "rotation_deg": 135
+            }
+          }
+        },
+        "scene_5f1bf9a072f9_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_5f1bf9a072f9_m03"
+        },
+        "scene_5f1bf9a072f9_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_5f1bf9a072f9_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": -2,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -1463.417,
+              "y": 34670.049489117984,
+              "rotation_deg": 90
+            }
+          }
+        },
+        "scene_5f1bf9a072f9_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_5f1bf9a072f9_m04"
+        },
+        "scene_5f1bf9a072f9_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_5f1bf9a072f9_m04",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": 1,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -7500,
+              "y": 14173.19587628866,
+              "rotation_deg": 90
+            }
+          }
+        }
+      }
+    },
+    "scene_fe176333bcec": {
+      "qid": "Q_scene_fe176333bcec",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":57,\"layout_index\":0,\"train_shift\":0,\"angle_combo\":57,\"empty_point\":\"P01\",\"missing_model\":\"\",\"occupied_points\":[\"P02\",\"P05\",\"P03\",\"P04\"],\"empty_points\":[\"P01\",\"P06\"],\"seed\":1453,\"effective_seed\":576880,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":57,\"empty_point_slider\":0,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":0,\"variant_bank_slider\":0,\"angle_combo_index\":57,\"combo_index\":57,\"state_variant_slider\":57,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[0,0,0,90,45,0],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":2,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P02\",\"point_index\":2,\"angle_deg\":0,\"variable_state_label\":\"x+2,y-2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":2,\"dy_steps\":-2,\"rotation_steps\":0},\"group_pose\":{\"x\":-10500,\"y\":24498.45,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-10488.978,\"y\":24500,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-9488.978,\"y\":23500,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":2,\"dy_steps\":-2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":5,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P05\",\"point_index\":5,\"angle_deg\":45,\"variable_state_label\":\"x+1,y-1,L+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":-1,\"rotation_steps\":-1},\"group_pose\":{\"x\":-10505.326,\"y\":38494.674,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-9524.077,\"y\":38741.702,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-8816.97,\"y\":38741.702,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":-1,\"rotation_steps\":-1}},\"attempts\":1,\"passed\":true},{\"slot\":3,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P03\",\"point_index\":3,\"angle_deg\":0,\"variable_state_label\":\"x-1,y+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-1,\"dy_steps\":2,\"rotation_steps\":0},\"group_pose\":{\"x\":-3500,\"y\":24500,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-3500,\"y\":24500,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-4000,\"y\":25500,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-1,\"dy_steps\":2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":90,\"variable_state_label\":\"x+1,y+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":2,\"rotation_steps\":0},\"group_pose\":{\"x\":-6450.468,\"y\":32148.945,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-7612.688,\"y\":30403.171,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-8612.688,\"y\":30903.171,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_fe176333bcec_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_fe176333bcec_m01"
+        },
+        "scene_fe176333bcec_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_fe176333bcec_m01",
+          "target": {
+            "relative": {
+              "dx_steps": 2,
+              "dy_steps": -2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -9488.978,
+              "y": 20010.022909507446,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_fe176333bcec_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_fe176333bcec_m03"
+        },
+        "scene_fe176333bcec_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_fe176333bcec_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": -1,
+              "rotation_steps": -1
+            },
+            "absolute": {
+              "x": -8816.97,
+              "y": 35023.60348911798,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_fe176333bcec_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_fe176333bcec_m04"
+        },
+        "scene_fe176333bcec_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_fe176333bcec_m04",
+          "target": {
+            "relative": {
+              "dx_steps": -1,
+              "dy_steps": 2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -4000,
+              "y": 22010.022909507446,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_fe176333bcec_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_fe176333bcec_m05"
+        },
+        "scene_fe176333bcec_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_fe176333bcec_m05",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -8612.688,
+              "y": 27300.135490263456,
+              "rotation_deg": 90
+            }
+          }
+        }
+      }
+    },
+    "scene_9aeb20bea5f6": {
+      "qid": "Q_scene_9aeb20bea5f6",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":423,\"layout_index\":1,\"train_shift\":1,\"angle_combo\":18,\"empty_point\":\"P02\",\"missing_model\":\"\",\"occupied_points\":[\"P05\",\"P03\",\"P01\",\"P04\"],\"empty_points\":[\"P02\",\"P06\"],\"seed\":1453,\"effective_seed\":576750,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":423,\"empty_point_slider\":1,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":1,\"variant_bank_slider\":0,\"angle_combo_index\":18,\"combo_index\":423,\"state_variant_slider\":8,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[90,0,0,0,0,0],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":5,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P05\",\"point_index\":5,\"angle_deg\":0,\"variable_state_label\":\"x+1,y+2,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":2,\"rotation_steps\":1},\"group_pose\":{\"x\":-9851.055,\"y\":37950.468,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-11596.829,\"y\":39112.688,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-11096.829,\"y\":40112.688,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":2,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true},{\"slot\":3,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P03\",\"point_index\":3,\"angle_deg\":0,\"variable_state_label\":\"y-2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":-2,\"rotation_steps\":0},\"group_pose\":{\"x\":-3500,\"y\":24498.45,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-3488.978,\"y\":24500,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-3488.978,\"y\":23500,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":-2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":90,\"variable_state_label\":\"x+1,y+1,L+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":1,\"rotation_steps\":-2},\"group_pose\":{\"x\":-7000,\"y\":17492.468,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-6480.827,\"y\":18360.991,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-6980.827,\"y\":18860.991,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":1,\"rotation_steps\":-2}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":0,\"variable_state_label\":\"y+1,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":1,\"rotation_steps\":1},\"group_pose\":{\"x\":-7000,\"y\":31500,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-7000,\"y\":31500,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-7000,\"y\":32000,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":1,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_9aeb20bea5f6_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_9aeb20bea5f6_m05"
+        },
+        "scene_9aeb20bea5f6_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_9aeb20bea5f6_m05",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 2,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -11096.829,
+              "y": 36394.589489117985,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_9aeb20bea5f6_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_9aeb20bea5f6_m01"
+        },
+        "scene_9aeb20bea5f6_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_9aeb20bea5f6_m01",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": -2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -3488.978,
+              "y": 20010.022909507446,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_9aeb20bea5f6_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_9aeb20bea5f6_m03"
+        },
+        "scene_9aeb20bea5f6_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_9aeb20bea5f6_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 1,
+              "rotation_steps": -2
+            },
+            "absolute": {
+              "x": -6980.827,
+              "y": 15534.186876288662,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_9aeb20bea5f6_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_9aeb20bea5f6_m04"
+        },
+        "scene_9aeb20bea5f6_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_9aeb20bea5f6_m04",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": 1,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -7000,
+              "y": 28396.96449026346,
+              "rotation_deg": 45
+            }
+          }
+        }
+      }
+    },
+    "scene_7f0cb5e894b1": {
+      "qid": "Q_scene_7f0cb5e894b1",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":2527,\"layout_index\":7,\"train_shift\":3,\"angle_combo\":16,\"empty_point\":\"P05\",\"missing_model\":\"\",\"occupied_points\":[\"P02\",\"P06\",\"P01\",\"P04\"],\"empty_points\":[\"P05\",\"P03\"],\"seed\":1453,\"effective_seed\":574614,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":2527,\"empty_point_slider\":4,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":3,\"variant_bank_slider\":0,\"angle_combo_index\":16,\"combo_index\":2527,\"state_variant_slider\":37,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[45,45,0,0,0,90],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":2,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P02\",\"point_index\":2,\"angle_deg\":45,\"variable_state_label\":\"x-1,y-2,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-1,\"dy_steps\":-2,\"rotation_steps\":1},\"group_pose\":{\"x\":-10505.326,\"y\":24494.674,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-9524.077,\"y\":24741.702,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-9170.524,\"y\":23681.042,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-1,\"dy_steps\":-2,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true},{\"slot\":6,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P06\",\"point_index\":6,\"angle_deg\":90,\"variable_state_label\":\"x+1,y-2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":-2,\"rotation_steps\":0},\"group_pose\":{\"x\":-3500,\"y\":38500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-3500,\"y\":38500,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-2500,\"y\":39000,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":-2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":45,\"variable_state_label\":\"x-1,y+2,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-1,\"dy_steps\":2,\"rotation_steps\":1},\"group_pose\":{\"x\":-6152.549,\"y\":17570.296,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-8208.812,\"y\":17157.661,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-9269.472,\"y\":17511.214,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-1,\"dy_steps\":2,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":0,\"variable_state_label\":\"x-1,y-1,L+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-1,\"dy_steps\":-1,\"rotation_steps\":-1},\"group_pose\":{\"x\":-7000,\"y\":31498.45,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-6988.978,\"y\":31500,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-7488.978,\"y\":31000,\"rotation_deg\":-45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-1,\"dy_steps\":-1,\"rotation_steps\":-1}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_7f0cb5e894b1_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_7f0cb5e894b1_m03"
+        },
+        "scene_7f0cb5e894b1_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_7f0cb5e894b1_m03",
+          "target": {
+            "relative": {
+              "dx_steps": -1,
+              "dy_steps": -2,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -9170.524,
+              "y": 20191.064909507448,
+              "rotation_deg": 90
+            }
+          }
+        },
+        "scene_7f0cb5e894b1_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_7f0cb5e894b1_m04"
+        },
+        "scene_7f0cb5e894b1_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_7f0cb5e894b1_m04",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": -2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -2500,
+              "y": 35281.90148911798,
+              "rotation_deg": 90
+            }
+          }
+        },
+        "scene_7f0cb5e894b1_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_7f0cb5e894b1_m05"
+        },
+        "scene_7f0cb5e894b1_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_7f0cb5e894b1_m05",
+          "target": {
+            "relative": {
+              "dx_steps": -1,
+              "dy_steps": 2,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -9269.472,
+              "y": 14184.40987628866,
+              "rotation_deg": 90
+            }
+          }
+        },
+        "scene_7f0cb5e894b1_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_7f0cb5e894b1_m01"
+        },
+        "scene_7f0cb5e894b1_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_7f0cb5e894b1_m01",
+          "target": {
+            "relative": {
+              "dx_steps": -1,
+              "dy_steps": -1,
+              "rotation_steps": -1
+            },
+            "absolute": {
+              "x": -7488.978,
+              "y": 27396.96449026346,
+              "rotation_deg": -45
+            }
+          }
+        }
+      }
+    },
+    "scene_3d2867bd6bf6": {
+      "qid": "Q_scene_3d2867bd6bf6",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":1115,\"layout_index\":3,\"train_shift\":1,\"angle_combo\":62,\"empty_point\":\"P05\",\"missing_model\":\"\",\"occupied_points\":[\"P02\",\"P03\",\"P01\",\"P04\"],\"empty_points\":[\"P05\",\"P06\"],\"seed\":1453,\"effective_seed\":575762,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":1115,\"empty_point_slider\":4,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":1,\"variant_bank_slider\":0,\"angle_combo_index\":62,\"combo_index\":1115,\"state_variant_slider\":36,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[0,90,90,90,0,0],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":2,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P02\",\"point_index\":2,\"angle_deg\":90,\"variable_state_label\":\"x+2,L+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":-2},\"group_pose\":{\"x\":-9950.468,\"y\":25148.945,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-11112.688,\"y\":23403.171,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-11112.688,\"y\":24403.171,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":-2}},\"attempts\":1,\"passed\":true},{\"slot\":3,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P03\",\"point_index\":3,\"angle_deg\":90,\"variable_state_label\":\"y+2,R+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":2,\"rotation_steps\":2},\"group_pose\":{\"x\":-3498.45,\"y\":24500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-3500,\"y\":24511.022,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-4500,\"y\":24511.022,\"rotation_deg\":180},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":2,\"rotation_steps\":2}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":0,\"variable_state_label\":\"x+1,y-1,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":-1,\"rotation_steps\":1},\"group_pose\":{\"x\":-7007.532,\"y\":17500,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-6139.009,\"y\":16980.827,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-5639.009,\"y\":16480.827,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":-1,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":90,\"variable_state_label\":\"x+1,L+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":0,\"rotation_steps\":-2},\"group_pose\":{\"x\":-7000,\"y\":31500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-7000,\"y\":31500,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-7000,\"y\":32000,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":0,\"rotation_steps\":-2}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_3d2867bd6bf6_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_3d2867bd6bf6_m05"
+        },
+        "scene_3d2867bd6bf6_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_3d2867bd6bf6_m05",
+          "target": {
+            "relative": {
+              "dx_steps": 2,
+              "dy_steps": 0,
+              "rotation_steps": -2
+            },
+            "absolute": {
+              "x": -11112.688,
+              "y": 20913.193909507445,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_3d2867bd6bf6_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_3d2867bd6bf6_m01"
+        },
+        "scene_3d2867bd6bf6_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_3d2867bd6bf6_m01",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": 2,
+              "rotation_steps": 2
+            },
+            "absolute": {
+              "x": -4500,
+              "y": 21021.044909507447,
+              "rotation_deg": 180
+            }
+          }
+        },
+        "scene_3d2867bd6bf6_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_3d2867bd6bf6_m03"
+        },
+        "scene_3d2867bd6bf6_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_3d2867bd6bf6_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": -1,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -5639.009,
+              "y": 13154.022876288662,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_3d2867bd6bf6_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_3d2867bd6bf6_m04"
+        },
+        "scene_3d2867bd6bf6_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_3d2867bd6bf6_m04",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 0,
+              "rotation_steps": -2
+            },
+            "absolute": {
+              "x": -7000,
+              "y": 28396.96449026346,
+              "rotation_deg": 0
+            }
+          }
+        }
+      }
+    },
+    "scene_d6ecb9c866c6": {
+      "qid": "Q_scene_d6ecb9c866c6",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":630,\"layout_index\":1,\"train_shift\":3,\"angle_combo\":63,\"empty_point\":\"P02\",\"missing_model\":\"\",\"occupied_points\":[\"P05\",\"P03\",\"P01\",\"P04\"],\"empty_points\":[\"P02\",\"P06\"],\"seed\":1453,\"effective_seed\":577343,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":630,\"empty_point_slider\":1,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":3,\"variant_bank_slider\":0,\"angle_combo_index\":63,\"combo_index\":630,\"state_variant_slider\":49,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[45,0,0,90,0,0],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":5,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P05\",\"point_index\":5,\"angle_deg\":0,\"variable_state_label\":\"x+1,y-1,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":-1,\"rotation_steps\":1},\"group_pose\":{\"x\":-10507.532,\"y\":38500,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-9639.009,\"y\":37980.827,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-9139.009,\"y\":37480.827,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":-1,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true},{\"slot\":3,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P03\",\"point_index\":3,\"angle_deg\":0,\"variable_state_label\":\"x+2,y-2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":2,\"dy_steps\":-2,\"rotation_steps\":0},\"group_pose\":{\"x\":-3500,\"y\":24500,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-3500,\"y\":24500,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-2500,\"y\":23500,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":2,\"dy_steps\":-2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":45,\"variable_state_label\":\"x+1,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":0,\"rotation_steps\":1},\"group_pose\":{\"x\":-6152.549,\"y\":17570.296,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-8208.812,\"y\":17157.661,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-7855.258,\"y\":17511.214,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":0,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":90,\"variable_state_label\":\"x+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":0,\"rotation_steps\":0},\"group_pose\":{\"x\":-6998.45,\"y\":31500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-7000,\"y\":31511.022,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-7000,\"y\":32011.022,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":0,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_d6ecb9c866c6_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_d6ecb9c866c6_m03"
+        },
+        "scene_d6ecb9c866c6_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_d6ecb9c866c6_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": -1,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -9139.009,
+              "y": 33762.72848911798,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_d6ecb9c866c6_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_d6ecb9c866c6_m04"
+        },
+        "scene_d6ecb9c866c6_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_d6ecb9c866c6_m04",
+          "target": {
+            "relative": {
+              "dx_steps": 2,
+              "dy_steps": -2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -2500,
+              "y": 20010.022909507446,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_d6ecb9c866c6_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_d6ecb9c866c6_m05"
+        },
+        "scene_d6ecb9c866c6_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_d6ecb9c866c6_m05",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 0,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -7855.258,
+              "y": 14184.40987628866,
+              "rotation_deg": 90
+            }
+          }
+        },
+        "scene_d6ecb9c866c6_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_d6ecb9c866c6_m01"
+        },
+        "scene_d6ecb9c866c6_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_d6ecb9c866c6_m01",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 0,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -7000,
+              "y": 28407.986490263458,
+              "rotation_deg": 90
+            }
+          }
+        }
+      }
+    },
+    "scene_1038b53edafd": {
+      "qid": "Q_scene_1038b53edafd",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":2505,\"layout_index\":7,\"train_shift\":2,\"angle_combo\":75,\"empty_point\":\"P05\",\"missing_model\":\"\",\"occupied_points\":[\"P02\",\"P06\",\"P01\",\"P04\"],\"empty_points\":[\"P05\",\"P03\"],\"seed\":1453,\"effective_seed\":574592,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":2505,\"empty_point_slider\":4,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":2,\"variant_bank_slider\":0,\"angle_combo_index\":75,\"combo_index\":2505,\"state_variant_slider\":15,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[90,0,0,90,0,45],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":2,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P02\",\"point_index\":2,\"angle_deg\":0,\"variable_state_label\":\"x-2,y-1,L+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-2,\"dy_steps\":-1,\"rotation_steps\":-1},\"group_pose\":{\"x\":-10500,\"y\":24500,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-10500,\"y\":24500,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-11500,\"y\":24000,\"rotation_deg\":-45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-2,\"dy_steps\":-1,\"rotation_steps\":-1}},\"attempts\":1,\"passed\":true},{\"slot\":6,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P06\",\"point_index\":6,\"angle_deg\":45,\"variable_state_label\":\"x+1,y+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":2,\"rotation_steps\":0},\"group_pose\":{\"x\":-2652.549,\"y\":38570.296,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-4708.812,\"y\":38157.661,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-5062.365,\"y\":39218.321,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":90,\"variable_state_label\":\"x+1,L+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":0,\"rotation_steps\":-1},\"group_pose\":{\"x\":-6998.45,\"y\":17500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-7000,\"y\":17511.022,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-7000,\"y\":18011.022,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":0,\"rotation_steps\":-1}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":90,\"variable_state_label\":\"x+2,L+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":-2},\"group_pose\":{\"x\":-7000,\"y\":31492.468,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-6480.827,\"y\":32360.991,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-6480.827,\"y\":33360.991,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":-2}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_1038b53edafd_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_1038b53edafd_m04"
+        },
+        "scene_1038b53edafd_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_1038b53edafd_m04",
+          "target": {
+            "relative": {
+              "dx_steps": -2,
+              "dy_steps": -1,
+              "rotation_steps": -1
+            },
+            "absolute": {
+              "x": -11500,
+              "y": 20510.022909507446,
+              "rotation_deg": -45
+            }
+          }
+        },
+        "scene_1038b53edafd_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_1038b53edafd_m05"
+        },
+        "scene_1038b53edafd_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_1038b53edafd_m05",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -5062.365,
+              "y": 35500.22248911799,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_1038b53edafd_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_1038b53edafd_m01"
+        },
+        "scene_1038b53edafd_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_1038b53edafd_m01",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 0,
+              "rotation_steps": -1
+            },
+            "absolute": {
+              "x": -7000,
+              "y": 14684.217876288662,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_1038b53edafd_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_1038b53edafd_m03"
+        },
+        "scene_1038b53edafd_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_1038b53edafd_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 2,
+              "dy_steps": 0,
+              "rotation_steps": -2
+            },
+            "absolute": {
+              "x": -6480.827,
+              "y": 29757.955490263463,
+              "rotation_deg": 0
+            }
+          }
+        }
+      }
+    },
+    "scene_80640272fe8c": {
+      "qid": "Q_scene_80640272fe8c",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":348,\"layout_index\":1,\"train_shift\":0,\"angle_combo\":24,\"empty_point\":\"P02\",\"missing_model\":\"\",\"occupied_points\":[\"P05\",\"P03\",\"P01\",\"P04\"],\"empty_points\":[\"P02\",\"P06\"],\"seed\":1453,\"effective_seed\":576533,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":348,\"empty_point_slider\":1,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":0,\"variant_bank_slider\":0,\"angle_combo_index\":24,\"combo_index\":348,\"state_variant_slider\":16,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[90,0,90,0,0,0],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":5,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P05\",\"point_index\":5,\"angle_deg\":0,\"variable_state_label\":\"y-1,L+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":-1,\"rotation_steps\":-1},\"group_pose\":{\"x\":-10500,\"y\":38498.45,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-10488.978,\"y\":38500,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-10488.978,\"y\":38000,\"rotation_deg\":-45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":-1,\"rotation_steps\":-1}},\"attempts\":1,\"passed\":true},{\"slot\":3,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P03\",\"point_index\":3,\"angle_deg\":90,\"variable_state_label\":\"R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":0,\"rotation_steps\":1},\"group_pose\":{\"x\":-3500,\"y\":24492.468,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-2980.827,\"y\":25360.991,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-2980.827,\"y\":25360.991,\"rotation_deg\":135},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":0,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":90,\"variable_state_label\":\"x+2,y-1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":2,\"dy_steps\":-1,\"rotation_steps\":0},\"group_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-6500,\"y\":18500,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":2,\"dy_steps\":-1,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":0,\"variable_state_label\":\"x-2,y+1,L+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-2,\"dy_steps\":1,\"rotation_steps\":-1},\"group_pose\":{\"x\":-6351.055,\"y\":30950.468,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-8096.829,\"y\":32112.688,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-9096.829,\"y\":32612.688,\"rotation_deg\":-45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-2,\"dy_steps\":1,\"rotation_steps\":-1}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_80640272fe8c_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_80640272fe8c_m01"
+        },
+        "scene_80640272fe8c_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_80640272fe8c_m01",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": -1,
+              "rotation_steps": -1
+            },
+            "absolute": {
+              "x": -10488.978,
+              "y": 34281.90148911798,
+              "rotation_deg": -45
+            }
+          }
+        },
+        "scene_80640272fe8c_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_80640272fe8c_m03"
+        },
+        "scene_80640272fe8c_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_80640272fe8c_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": 0,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -2980.827,
+              "y": 21871.01390950745,
+              "rotation_deg": 135
+            }
+          }
+        },
+        "scene_80640272fe8c_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_80640272fe8c_m04"
+        },
+        "scene_80640272fe8c_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_80640272fe8c_m04",
+          "target": {
+            "relative": {
+              "dx_steps": 2,
+              "dy_steps": -1,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -6500,
+              "y": 15173.19587628866,
+              "rotation_deg": 90
+            }
+          }
+        },
+        "scene_80640272fe8c_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_80640272fe8c_m05"
+        },
+        "scene_80640272fe8c_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_80640272fe8c_m05",
+          "target": {
+            "relative": {
+              "dx_steps": -2,
+              "dy_steps": 1,
+              "rotation_steps": -1
+            },
+            "absolute": {
+              "x": -9096.829,
+              "y": 29009.652490263456,
+              "rotation_deg": -45
+            }
+          }
+        }
+      }
+    },
+    "scene_c0c57edc840d": {
+      "qid": "Q_scene_c0c57edc840d",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":2183,\"layout_index\":6,\"train_shift\":2,\"angle_combo\":77,\"empty_point\":\"P04\",\"missing_model\":\"\",\"occupied_points\":[\"P02\",\"P05\",\"P06\",\"P01\"],\"empty_points\":[\"P04\",\"P03\"],\"seed\":1453,\"effective_seed\":574926,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":2183,\"empty_point_slider\":3,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":2,\"variant_bank_slider\":0,\"angle_combo_index\":77,\"combo_index\":2183,\"state_variant_slider\":25,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[90,90,0,0,45,90],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":2,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P02\",\"point_index\":2,\"angle_deg\":90,\"variable_state_label\":\"x-2,y-1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-2,\"dy_steps\":-1,\"rotation_steps\":0},\"group_pose\":{\"x\":-10500,\"y\":24500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-10500,\"y\":24500,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-10000,\"y\":23500,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-2,\"dy_steps\":-1,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":5,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P05\",\"point_index\":5,\"angle_deg\":45,\"variable_state_label\":\"x+1,y+1,L+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":1,\"rotation_steps\":-1},\"group_pose\":{\"x\":-9652.549,\"y\":38570.296,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-11708.812,\"y\":38157.661,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-11708.812,\"y\":38864.767,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":1,\"rotation_steps\":-1}},\"attempts\":1,\"passed\":true},{\"slot\":6,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P06\",\"point_index\":6,\"angle_deg\":90,\"variable_state_label\":\"x-1,y+1,R+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-1,\"dy_steps\":1,\"rotation_steps\":2},\"group_pose\":{\"x\":-3498.45,\"y\":38500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-3500,\"y\":38511.022,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-4000,\"y\":38011.022,\"rotation_deg\":180},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-1,\"dy_steps\":1,\"rotation_steps\":2}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":90,\"variable_state_label\":\"x+2,R+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":2},\"group_pose\":{\"x\":-7000,\"y\":17492.468,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-6480.827,\"y\":18360.991,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-6480.827,\"y\":19360.991,\"rotation_deg\":180},\"final_state_json\":{\"variable_group\":{\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":2}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_c0c57edc840d_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_c0c57edc840d_m04"
+        },
+        "scene_c0c57edc840d_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_c0c57edc840d_m04",
+          "target": {
+            "relative": {
+              "dx_steps": -2,
+              "dy_steps": -1,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -10000,
+              "y": 20010.022909507446,
+              "rotation_deg": 90
+            }
+          }
+        },
+        "scene_c0c57edc840d_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_c0c57edc840d_m05"
+        },
+        "scene_c0c57edc840d_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_c0c57edc840d_m05",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 1,
+              "rotation_steps": -1
+            },
+            "absolute": {
+              "x": -11708.812,
+              "y": 35146.66848911798,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_c0c57edc840d_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_c0c57edc840d_m01"
+        },
+        "scene_c0c57edc840d_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_c0c57edc840d_m01",
+          "target": {
+            "relative": {
+              "dx_steps": -1,
+              "dy_steps": 1,
+              "rotation_steps": 2
+            },
+            "absolute": {
+              "x": -4000,
+              "y": 34292.92348911798,
+              "rotation_deg": 180
+            }
+          }
+        },
+        "scene_c0c57edc840d_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_c0c57edc840d_m03"
+        },
+        "scene_c0c57edc840d_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_c0c57edc840d_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 2,
+              "dy_steps": 0,
+              "rotation_steps": 2
+            },
+            "absolute": {
+              "x": -6480.827,
+              "y": 16034.186876288662,
+              "rotation_deg": 180
+            }
+          }
+        }
+      }
+    },
+    "scene_c67fdeda0467": {
+      "qid": "Q_scene_c67fdeda0467",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":1661,\"layout_index\":5,\"train_shift\":0,\"angle_combo\":41,\"empty_point\":\"P02\",\"missing_model\":\"\",\"occupied_points\":[\"P05\",\"P06\",\"P01\",\"P04\"],\"empty_points\":[\"P02\",\"P03\"],\"seed\":1453,\"effective_seed\":576308,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":1661,\"empty_point_slider\":1,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":0,\"variant_bank_slider\":0,\"angle_combo_index\":41,\"combo_index\":1661,\"state_variant_slider\":1,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[45,0,0,45,90,45],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":5,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P05\",\"point_index\":5,\"angle_deg\":90,\"variable_state_label\":\"x-1,y-1,L+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-1,\"dy_steps\":-1,\"rotation_steps\":-1},\"group_pose\":{\"x\":-10498.45,\"y\":38500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-10500,\"y\":38511.022,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-10000,\"y\":38011.022,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-1,\"dy_steps\":-1,\"rotation_steps\":-1}},\"attempts\":1,\"passed\":true},{\"slot\":6,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P06\",\"point_index\":6,\"angle_deg\":45,\"variable_state_label\":\"x+2,R+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":2},\"group_pose\":{\"x\":-3505.326,\"y\":38494.674,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-2524.077,\"y\":38741.702,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-1816.97,\"y\":39448.808,\"rotation_deg\":135},\"final_state_json\":{\"variable_group\":{\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":2}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":45,\"variable_state_label\":\"x+2,y+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":2,\"dy_steps\":2,\"rotation_steps\":0},\"group_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-7000,\"y\":18914.214,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":2,\"dy_steps\":2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":45,\"variable_state_label\":\"x+2,L+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":-2},\"group_pose\":{\"x\":-6152.549,\"y\":31570.296,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-8208.812,\"y\":31157.661,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-7501.705,\"y\":31864.767,\"rotation_deg\":-45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":2,\"dy_steps\":0,\"rotation_steps\":-2}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_c67fdeda0467_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_c67fdeda0467_m01"
+        },
+        "scene_c67fdeda0467_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_c67fdeda0467_m01",
+          "target": {
+            "relative": {
+              "dx_steps": -1,
+              "dy_steps": -1,
+              "rotation_steps": -1
+            },
+            "absolute": {
+              "x": -10000,
+              "y": 34292.92348911798,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_c67fdeda0467_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_c67fdeda0467_m03"
+        },
+        "scene_c67fdeda0467_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_c67fdeda0467_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 2,
+              "dy_steps": 0,
+              "rotation_steps": 2
+            },
+            "absolute": {
+              "x": -1816.97,
+              "y": 35730.70948911798,
+              "rotation_deg": 135
+            }
+          }
+        },
+        "scene_c67fdeda0467_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_c67fdeda0467_m04"
+        },
+        "scene_c67fdeda0467_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_c67fdeda0467_m04",
+          "target": {
+            "relative": {
+              "dx_steps": 2,
+              "dy_steps": 2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -7000,
+              "y": 15587.40987628866,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_c67fdeda0467_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_c67fdeda0467_m05"
+        },
+        "scene_c67fdeda0467_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_c67fdeda0467_m05",
+          "target": {
+            "relative": {
+              "dx_steps": 2,
+              "dy_steps": 0,
+              "rotation_steps": -2
+            },
+            "absolute": {
+              "x": -7501.705,
+              "y": 28261.73149026346,
+              "rotation_deg": -45
+            }
+          }
+        }
+      }
+    },
+    "scene_33d8a9a45ab3": {
+      "qid": "Q_scene_33d8a9a45ab3",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":984,\"layout_index\":3,\"train_shift\":0,\"angle_combo\":12,\"empty_point\":\"P05\",\"missing_model\":\"\",\"occupied_points\":[\"P02\",\"P03\",\"P01\",\"P04\"],\"empty_points\":[\"P05\",\"P06\"],\"seed\":1453,\"effective_seed\":577169,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":984,\"empty_point_slider\":4,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":0,\"variant_bank_slider\":0,\"angle_combo_index\":12,\"combo_index\":984,\"state_variant_slider\":71,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[45,0,45,0,0,0],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":2,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P02\",\"point_index\":2,\"angle_deg\":0,\"variable_state_label\":\"x+1,y+1,L+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":1,\"rotation_steps\":-1},\"group_pose\":{\"x\":-10500,\"y\":24498.45,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-10488.978,\"y\":24500,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-9988.978,\"y\":25000,\"rotation_deg\":-45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":1,\"rotation_steps\":-1}},\"attempts\":1,\"passed\":true},{\"slot\":3,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P03\",\"point_index\":3,\"angle_deg\":45,\"variable_state_label\":\"x+1,y+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":2,\"rotation_steps\":0},\"group_pose\":{\"x\":-3505.326,\"y\":24494.674,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-2524.077,\"y\":24741.702,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-2877.631,\"y\":25802.362,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":45,\"variable_state_label\":\"x+1,y-1,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":-1,\"rotation_steps\":1},\"group_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-6292.893,\"y\":17500,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":-1,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":0,\"variable_state_label\":\"x+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":0,\"rotation_steps\":0},\"group_pose\":{\"x\":-6351.055,\"y\":30950.468,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-8096.829,\"y\":32112.688,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-7596.829,\"y\":32112.688,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":0,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_33d8a9a45ab3_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_33d8a9a45ab3_m01"
+        },
+        "scene_33d8a9a45ab3_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_33d8a9a45ab3_m01",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 1,
+              "rotation_steps": -1
+            },
+            "absolute": {
+              "x": -9988.978,
+              "y": 21510.022909507446,
+              "rotation_deg": -45
+            }
+          }
+        },
+        "scene_33d8a9a45ab3_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_33d8a9a45ab3_m03"
+        },
+        "scene_33d8a9a45ab3_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_33d8a9a45ab3_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -2877.631,
+              "y": 22312.384909507447,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_33d8a9a45ab3_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_33d8a9a45ab3_m04"
+        },
+        "scene_33d8a9a45ab3_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_33d8a9a45ab3_m04",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": -1,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -6292.893,
+              "y": 14173.19587628866,
+              "rotation_deg": 90
+            }
+          }
+        },
+        "scene_33d8a9a45ab3_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_33d8a9a45ab3_m05"
+        },
+        "scene_33d8a9a45ab3_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_33d8a9a45ab3_m05",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 0,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -7596.829,
+              "y": 28509.652490263456,
+              "rotation_deg": 0
+            }
+          }
+        }
+      }
+    },
+    "scene_085fde3d3e0c": {
+      "qid": "Q_scene_085fde3d3e0c",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":2062,\"layout_index\":6,\"train_shift\":1,\"angle_combo\":37,\"empty_point\":\"P04\",\"missing_model\":\"\",\"occupied_points\":[\"P02\",\"P05\",\"P06\",\"P01\"],\"empty_points\":[\"P04\",\"P03\"],\"seed\":1453,\"effective_seed\":574791,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":2062,\"empty_point_slider\":3,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":1,\"variant_bank_slider\":0,\"angle_combo_index\":37,\"combo_index\":2062,\"state_variant_slider\":70,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[45,45,0,0,0,45],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":2,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P02\",\"point_index\":2,\"angle_deg\":45,\"variable_state_label\":\"x-2,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-2,\"dy_steps\":0,\"rotation_steps\":1},\"group_pose\":{\"x\":-9652.549,\"y\":24570.296,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-11708.812,\"y\":24157.661,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-12415.918,\"y\":23450.554,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-2,\"dy_steps\":0,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true},{\"slot\":5,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P05\",\"point_index\":5,\"angle_deg\":0,\"variable_state_label\":\"y-1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":-1,\"rotation_steps\":0},\"group_pose\":{\"x\":-10500,\"y\":38498.45,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-10488.978,\"y\":38500,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-10488.978,\"y\":38000,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":-1,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":6,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P06\",\"point_index\":6,\"angle_deg\":45,\"variable_state_label\":\"y-2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":-2,\"rotation_steps\":0},\"group_pose\":{\"x\":-3505.326,\"y\":38494.674,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-2524.077,\"y\":38741.702,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-1816.97,\"y\":38034.595,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":-2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":45,\"variable_state_label\":\"x-2,y-1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-2,\"dy_steps\":-1,\"rotation_steps\":0},\"group_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-7353.553,\"y\":16439.34,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-2,\"dy_steps\":-1,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_085fde3d3e0c_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_085fde3d3e0c_m05"
+        },
+        "scene_085fde3d3e0c_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_085fde3d3e0c_m05",
+          "target": {
+            "relative": {
+              "dx_steps": -2,
+              "dy_steps": 0,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -12415.918,
+              "y": 19960.576909507447,
+              "rotation_deg": 90
+            }
+          }
+        },
+        "scene_085fde3d3e0c_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_085fde3d3e0c_m01"
+        },
+        "scene_085fde3d3e0c_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_085fde3d3e0c_m01",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": -1,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -10488.978,
+              "y": 34281.90148911798,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_085fde3d3e0c_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_085fde3d3e0c_m03"
+        },
+        "scene_085fde3d3e0c_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_085fde3d3e0c_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": -2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -1816.97,
+              "y": 34316.496489117984,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_085fde3d3e0c_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_085fde3d3e0c_m04"
+        },
+        "scene_085fde3d3e0c_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_085fde3d3e0c_m04",
+          "target": {
+            "relative": {
+              "dx_steps": -2,
+              "dy_steps": -1,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -7353.553,
+              "y": 13112.53587628866,
+              "rotation_deg": 45
+            }
+          }
+        }
+      }
+    },
+    "scene_0174b105258a": {
+      "qid": "Q_scene_0174b105258a",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":94,\"layout_index\":0,\"train_shift\":1,\"angle_combo\":13,\"empty_point\":\"P01\",\"missing_model\":\"\",\"occupied_points\":[\"P02\",\"P05\",\"P03\",\"P04\"],\"empty_points\":[\"P01\",\"P06\"],\"seed\":1453,\"effective_seed\":576791,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":94,\"empty_point_slider\":0,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":1,\"variant_bank_slider\":0,\"angle_combo_index\":13,\"combo_index\":94,\"state_variant_slider\":11,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[0,45,45,0,45,0],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":2,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P02\",\"point_index\":2,\"angle_deg\":45,\"variable_state_label\":\"x-1,y+2,L+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-1,\"dy_steps\":2,\"rotation_steps\":-1},\"group_pose\":{\"x\":-9652.549,\"y\":24570.296,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-11708.812,\"y\":24157.661,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-12769.472,\"y\":24511.214,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-1,\"dy_steps\":2,\"rotation_steps\":-1}},\"attempts\":1,\"passed\":true},{\"slot\":5,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P05\",\"point_index\":5,\"angle_deg\":45,\"variable_state_label\":\"x+1,y+2,L+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":2,\"rotation_steps\":-1},\"group_pose\":{\"x\":-10498.904,\"y\":38498.904,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-10492.206,\"y\":38507.794,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-10845.76,\"y\":39568.454,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":2,\"rotation_steps\":-1}},\"attempts\":1,\"passed\":true},{\"slot\":3,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P03\",\"point_index\":3,\"angle_deg\":45,\"variable_state_label\":\"y-2,L+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":-2,\"rotation_steps\":-2},\"group_pose\":{\"x\":-3505.326,\"y\":24494.674,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-2524.077,\"y\":24741.702,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-1816.97,\"y\":24034.595,\"rotation_deg\":-45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":-2,\"rotation_steps\":-2}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":0,\"variable_state_label\":\"y+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":2,\"rotation_steps\":0},\"group_pose\":{\"x\":-7000,\"y\":31500,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-7000,\"y\":31500,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-7000,\"y\":32500,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_0174b105258a_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_0174b105258a_m05"
+        },
+        "scene_0174b105258a_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_0174b105258a_m05",
+          "target": {
+            "relative": {
+              "dx_steps": -1,
+              "dy_steps": 2,
+              "rotation_steps": -1
+            },
+            "absolute": {
+              "x": -12769.472,
+              "y": 21021.236909507446,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_0174b105258a_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_0174b105258a_m01"
+        },
+        "scene_0174b105258a_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_0174b105258a_m01",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 2,
+              "rotation_steps": -1
+            },
+            "absolute": {
+              "x": -10845.76,
+              "y": 35850.35548911798,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_0174b105258a_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_0174b105258a_m03"
+        },
+        "scene_0174b105258a_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_0174b105258a_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": -2,
+              "rotation_steps": -2
+            },
+            "absolute": {
+              "x": -1816.97,
+              "y": 20544.617909507448,
+              "rotation_deg": -45
+            }
+          }
+        },
+        "scene_0174b105258a_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_0174b105258a_m04"
+        },
+        "scene_0174b105258a_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_0174b105258a_m04",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": 2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -7000,
+              "y": 28896.96449026346,
+              "rotation_deg": 0
+            }
+          }
+        }
+      }
+    },
+    "scene_6f20b299b0e5": {
+      "qid": "Q_scene_6f20b299b0e5",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":2330,\"layout_index\":7,\"train_shift\":0,\"angle_combo\":62,\"empty_point\":\"P05\",\"missing_model\":\"\",\"occupied_points\":[\"P02\",\"P06\",\"P01\",\"P04\"],\"empty_points\":[\"P05\",\"P03\"],\"seed\":1453,\"effective_seed\":574547,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":2330,\"empty_point_slider\":4,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":0,\"variant_bank_slider\":0,\"angle_combo_index\":62,\"combo_index\":2330,\"state_variant_slider\":6,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[0,90,0,90,0,90],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":2,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P02\",\"point_index\":2,\"angle_deg\":90,\"variable_state_label\":\"x-1,y-1,L+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":-1,\"dy_steps\":-1,\"rotation_steps\":-1},\"group_pose\":{\"x\":-10498.45,\"y\":24500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-10500,\"y\":24511.022,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-10000,\"y\":24011.022,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":-1,\"dy_steps\":-1,\"rotation_steps\":-1}},\"attempts\":1,\"passed\":true},{\"slot\":6,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P06\",\"point_index\":6,\"angle_deg\":90,\"variable_state_label\":\"x+2,y+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":2,\"dy_steps\":2,\"rotation_steps\":0},\"group_pose\":{\"x\":-3500,\"y\":38492.468,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-2980.827,\"y\":39360.991,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-3980.827,\"y\":40360.991,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":2,\"dy_steps\":2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":0,\"variable_state_label\":\"y+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":2,\"rotation_steps\":0},\"group_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-7000,\"y\":17500,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-7000,\"y\":18500,\"rotation_deg\":0},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":90,\"variable_state_label\":\"x+2,y+1,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":2,\"dy_steps\":1,\"rotation_steps\":1},\"group_pose\":{\"x\":-6450.468,\"y\":32148.945,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-7612.688,\"y\":30403.171,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-8112.688,\"y\":31403.171,\"rotation_deg\":135},\"final_state_json\":{\"variable_group\":{\"dx_steps\":2,\"dy_steps\":1,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_6f20b299b0e5_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_6f20b299b0e5_m01"
+        },
+        "scene_6f20b299b0e5_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_6f20b299b0e5_m01",
+          "target": {
+            "relative": {
+              "dx_steps": -1,
+              "dy_steps": -1,
+              "rotation_steps": -1
+            },
+            "absolute": {
+              "x": -10000,
+              "y": 20521.044909507447,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_6f20b299b0e5_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_6f20b299b0e5_m03"
+        },
+        "scene_6f20b299b0e5_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_6f20b299b0e5_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 2,
+              "dy_steps": 2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -3980.827,
+              "y": 36642.892489117985,
+              "rotation_deg": 90
+            }
+          }
+        },
+        "scene_6f20b299b0e5_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_6f20b299b0e5_m04"
+        },
+        "scene_6f20b299b0e5_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_6f20b299b0e5_m04",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": 2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -7000,
+              "y": 15173.19587628866,
+              "rotation_deg": 0
+            }
+          }
+        },
+        "scene_6f20b299b0e5_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_6f20b299b0e5_m05"
+        },
+        "scene_6f20b299b0e5_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_6f20b299b0e5_m05",
+          "target": {
+            "relative": {
+              "dx_steps": 2,
+              "dy_steps": 1,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -8112.688,
+              "y": 27800.135490263456,
+              "rotation_deg": 135
+            }
+          }
+        }
+      }
+    },
+    "scene_395dba77481f": {
+      "qid": "Q_scene_395dba77481f",
+      "metadata": {
+        "source": "rhino_gh",
+        "scene_state_json": "{\"schema\":\"parameter_model_scene.v1\",\"scene\":{\"candidate_index\":478,\"layout_index\":1,\"train_shift\":1,\"angle_combo\":73,\"empty_point\":\"P02\",\"missing_model\":\"\",\"occupied_points\":[\"P05\",\"P03\",\"P01\",\"P04\"],\"empty_points\":[\"P02\",\"P06\"],\"seed\":1453,\"effective_seed\":576663,\"randomize_each_run\":false,\"attempts_total\":4,\"passed\":true},\"sliders\":{\"candidate_index\":478,\"empty_point_slider\":1,\"missing_model_slider\":-1,\"permutation_slider\":0,\"train_shift_slider\":1,\"variant_bank_slider\":0,\"angle_combo_index\":73,\"combo_index\":478,\"state_variant_slider\":63,\"state_variant_count\":83,\"action_selection_mode\":\"per_model_seeded_v1\",\"angles_deg\":[90,0,0,90,45,0],\"random_seed_slider\":1453,\"randomize_each_run\":false},\"asset_dimensions\":{\"M01\":{\"group_asset\":\"m01_group\",\"variable_asset\":\"m01_variable\",\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"source_file\":\"armchairAndTeatable.3dm\",\"group\":{\"width\":3847.341,\"height\":744.654,\"unit\":\"mm\"},\"variable\":{\"width\":602.049,\"height\":832.788,\"unit\":\"mm\"}},\"M03\":{\"group_asset\":\"m03_group\",\"variable_asset\":\"m03_variable\",\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"source_file\":\"dining tablle.3dm\",\"group\":{\"width\":2158.079,\"height\":2000.001,\"unit\":\"mm\"},\"variable\":{\"width\":471.828,\"height\":450,\"unit\":\"mm\"}},\"M04\":{\"group_asset\":\"m04_group\",\"variable_asset\":\"m04_variable\",\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"source_file\":\"shortBookcase.3dm\",\"group\":{\"width\":2865.666,\"height\":5516.604,\"unit\":\"mm\"},\"variable\":{\"width\":2865.666,\"height\":516.604,\"unit\":\"mm\"}},\"M05\":{\"group_asset\":\"m05_group\",\"variable_asset\":\"m05_variable\",\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"source_file\":\"sofaAndTeatable.3dm\",\"group\":{\"width\":1954.586,\"height\":764.586,\"unit\":\"mm\"},\"variable\":{\"width\":1090.489,\"height\":680.915,\"unit\":\"mm\"}}},\"placements\":[{\"slot\":5,\"model_id\":\"M05\",\"file_name\":\"sofaAndTeatable.3dm\",\"point_id\":\"P05\",\"point_index\":5,\"angle_deg\":45,\"variable_state_label\":\"y+1,R+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":1,\"rotation_steps\":2},\"group_pose\":{\"x\":-9652.549,\"y\":38570.296,\"rotation_deg\":45},\"variable_initial_pose\":{\"x\":-11708.812,\"y\":38157.661,\"rotation_deg\":45},\"variable_correct_pose\":{\"x\":-12062.365,\"y\":38511.214,\"rotation_deg\":135},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":1,\"rotation_steps\":2}},\"attempts\":1,\"passed\":true},{\"slot\":3,\"model_id\":\"M01\",\"file_name\":\"armchairAndTeatable.3dm\",\"point_id\":\"P03\",\"point_index\":3,\"angle_deg\":0,\"variable_state_label\":\"y-2,R+1\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":-2,\"rotation_steps\":1},\"group_pose\":{\"x\":-3500,\"y\":24498.45,\"rotation_deg\":0},\"variable_initial_pose\":{\"x\":-3488.978,\"y\":24500,\"rotation_deg\":0},\"variable_correct_pose\":{\"x\":-3488.978,\"y\":23500,\"rotation_deg\":45},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":-2,\"rotation_steps\":1}},\"attempts\":1,\"passed\":true},{\"slot\":1,\"model_id\":\"M03\",\"file_name\":\"dining tablle.3dm\",\"point_id\":\"P01\",\"point_index\":1,\"angle_deg\":90,\"variable_state_label\":\"x+1,y+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":1,\"dy_steps\":2,\"rotation_steps\":0},\"group_pose\":{\"x\":-7000,\"y\":17492.468,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-6480.827,\"y\":18360.991,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-7480.827,\"y\":18860.991,\"rotation_deg\":90},\"final_state_json\":{\"variable_group\":{\"dx_steps\":1,\"dy_steps\":2,\"rotation_steps\":0}},\"attempts\":1,\"passed\":true},{\"slot\":4,\"model_id\":\"M04\",\"file_name\":\"shortBookcase.3dm\",\"point_id\":\"P04\",\"point_index\":4,\"angle_deg\":90,\"variable_state_label\":\"R+2\",\"variable_state\":{\"object\":\"variable_group\",\"dx_steps\":0,\"dy_steps\":0,\"rotation_steps\":2},\"group_pose\":{\"x\":-7000,\"y\":31500,\"rotation_deg\":90},\"variable_initial_pose\":{\"x\":-7000,\"y\":31500,\"rotation_deg\":90},\"variable_correct_pose\":{\"x\":-7000,\"y\":31500,\"rotation_deg\":180},\"final_state_json\":{\"variable_group\":{\"dx_steps\":0,\"dy_steps\":0,\"rotation_steps\":2}},\"attempts\":1,\"passed\":true}],\"collision\":{\"checked\":false,\"mode\":\"bbox_fast\",\"external_context_included\":false,\"notes\":[\"collision disabled; attempts_total=4\"]}}"
+      },
+      "objects": {
+        "scene_395dba77481f_m05_group": {
+          "role": "fixed",
+          "group_id": "scene_395dba77481f_m05"
+        },
+        "scene_395dba77481f_m05_variable": {
+          "role": "variable",
+          "group_id": "scene_395dba77481f_m05",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": 1,
+              "rotation_steps": 2
+            },
+            "absolute": {
+              "x": -12062.365,
+              "y": 34793.11548911798,
+              "rotation_deg": 135
+            }
+          }
+        },
+        "scene_395dba77481f_m01_group": {
+          "role": "fixed",
+          "group_id": "scene_395dba77481f_m01"
+        },
+        "scene_395dba77481f_m01_variable": {
+          "role": "variable",
+          "group_id": "scene_395dba77481f_m01",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": -2,
+              "rotation_steps": 1
+            },
+            "absolute": {
+              "x": -3488.978,
+              "y": 20010.022909507446,
+              "rotation_deg": 45
+            }
+          }
+        },
+        "scene_395dba77481f_m03_group": {
+          "role": "fixed",
+          "group_id": "scene_395dba77481f_m03"
+        },
+        "scene_395dba77481f_m03_variable": {
+          "role": "variable",
+          "group_id": "scene_395dba77481f_m03",
+          "target": {
+            "relative": {
+              "dx_steps": 1,
+              "dy_steps": 2,
+              "rotation_steps": 0
+            },
+            "absolute": {
+              "x": -7480.827,
+              "y": 15534.186876288662,
+              "rotation_deg": 90
+            }
+          }
+        },
+        "scene_395dba77481f_m04_group": {
+          "role": "fixed",
+          "group_id": "scene_395dba77481f_m04"
+        },
+        "scene_395dba77481f_m04_variable": {
+          "role": "variable",
+          "group_id": "scene_395dba77481f_m04",
+          "target": {
+            "relative": {
+              "dx_steps": 0,
+              "dy_steps": 0,
+              "rotation_steps": 2
+            },
+            "absolute": {
+              "x": -7000,
+              "y": 27896.96449026346,
+              "rotation_deg": 180
+            }
+          }
+        }
+      }
+    }
+  }
+}
