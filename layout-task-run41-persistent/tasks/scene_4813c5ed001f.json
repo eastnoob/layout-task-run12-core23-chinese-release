@@ -168,7 +168,7 @@
   "reference_mode": "persistent",
   "display_image": {
     "enabled": true,
-    "src": "assets/images/stimulus/4813c5ed001f_perspective_stimulus_1920x1080.png",
+    "src": "assets/images/stimulus/4813c5ed001f_perspective_stimulus_1920x1080.jpg",
     "alt": "Reference image",
     "record_metrics": true
   },
